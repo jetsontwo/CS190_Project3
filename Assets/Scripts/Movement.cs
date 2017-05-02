@@ -16,6 +16,7 @@ public class Movement : MonoBehaviour {
 	void Update () {
         vert = Input.GetAxisRaw("Vertical");
         horiz = Input.GetAxisRaw("Horizontal");
+        
         if (vert != 0 && rb.velocity.magnitude < max_vel)
             rb.velocity += new Vector3(0, 0, vert);
         else if (vert == 0)
