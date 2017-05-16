@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AAC4A791-7B94-4F01-AC0A-E7FE068B18CB}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{AAC4A791-7B94-4F01-AC0A-E7FE068B18CB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AAC4A791-7B94-4F01-AC0A-E7FE068B18CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayerWalk_gravel" ID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="env_bird_chirping2" ID="{622018EB-960E-4344-AB39-14F24EE73AD0}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerWalk_concrete" ID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerWalk_water" ID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerWalk_dirt" ID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

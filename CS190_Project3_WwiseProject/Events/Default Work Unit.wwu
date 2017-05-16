@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayerWalk_dirt" ID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EF82381C-239C-4CEA-9DFD-970BBFDB1FBC}" ShortID="311141673" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{32A1E9A0-CCF9-4C1E-9E0E-93F5A7185AF6}" Global="false">
+									<ObjectRef Name="Dirt" ID="{3BF636D3-D63F-4780-B008-1945654C9D26}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerWalk_water" ID="{D6554DC8-80FE-4C7D-8A18-72333751B078}">
+					<ChildrenList>
+						<Action Name="Play" ID="{34CE2A8B-E6C1-4356-9D43-D2BEED7B6D1D}" ShortID="191135545" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4950DF09-23EB-475C-888B-C3326CCE3D97}" Global="false">
+									<ObjectRef Name="Footstep_water" ID="{5DBADDDA-6FF6-4437-8D37-CE6C450C8D63}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerWalk_gravel" ID="{DDB8BD0E-E86C-4051-8568-188D3181F338}">
+					<ChildrenList>
+						<Action Name="Play" ID="{94CCFDBF-02FC-4996-BD64-42A87B27AB03}" ShortID="520170702" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3595BF4A-784A-46FE-A3B0-D8C65C4BE847}" Global="false">
+									<ObjectRef Name="Gravel" ID="{015550A4-AFEE-4C37-8B84-8650CB1E81CD}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D970AA0C-2AA4-4A2E-83A0-F7ABE0C4CF14}" ShortID="142501432" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3A6BAE63-0E66-4AA1-B103-F46E694388F5}" Global="false">
+									<ObjectRef Name="Tile" ID="{34E68B93-230F-40AC-97DB-25AD1B8FA6E2}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerWalk_concrete" ID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1C7262E4-73A1-47A1-AB45-B4E356AA3D5B}" ShortID="873958523" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{58B3E33B-6E10-479D-AFA1-3E5881640F28}" Global="false">
+									<ObjectRef Name="Concrete" ID="{7D35DE2F-85E2-4D4C-A961-3F5B1AF8F0F5}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0CC860E9-61D0-4E90-AFB7-60C69F849EB6}" ShortID="174975226" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B0840CEB-60A6-4558-AD25-C02A0D6BACA6}" Global="false">
+									<ObjectRef Name="Footstep_Wood" ID="{8C8CB344-67F8-4DF3-A268-8C82598F599B}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6F858ECA-C78D-47A5-BD84-03C3B8FCA8D7}" ShortID="196951325" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2C5EB4EF-0C1E-432E-9626-4E9B5559BB71}" Global="false">
+									<ObjectRef Name="266832__supercell10__bird-chirping" ID="{0ABF3918-4DE6-4DD1-B6DB-DBAC6603FB54}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="env_bird_chirping2" ID="{622018EB-960E-4344-AB39-14F24EE73AD0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{79ACDFFB-186F-404D-A1A7-EA82B8F43FE2}" ShortID="103930771" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0E62312C-420A-44AD-B530-01A58A1AA817}" Global="false">
+									<ObjectRef Name="339326__inspectorj__bird-whistling-a" ID="{5A2607E4-9352-447A-818A-E77C93311A25}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
