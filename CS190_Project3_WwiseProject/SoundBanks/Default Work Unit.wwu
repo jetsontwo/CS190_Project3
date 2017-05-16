@@ -3,7 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{AAC4A791-7B94-4F01-AC0A-E7FE068B18CB}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="main" ID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}">
+				<SoundBank Name="Main" ID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayerWalk_gravel" ID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>

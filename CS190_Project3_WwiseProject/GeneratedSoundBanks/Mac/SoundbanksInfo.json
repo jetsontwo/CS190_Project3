@@ -27,9 +27,9 @@
     "Id": "3161908922",
     "GUID": "{46D06830-4449-4AF1-AF9F-65E10B4047C4}",
     "Language": "SFX",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
-    "ShortName": "main",
-    "Path": "main.bnk",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
     "IncludedEvents": [
      {
       "Id": "326967116",
@@ -38,8 +38,8 @@
       "GUID": "{EB1200F5-A26C-4897-824E-C4EE349B2551}",
       "MaxAttenuation": "50.000000",
       "DurationType": "OneShot",
-      "DurationMin": "2.184186",
-      "DurationMax": "2.184186"
+      "DurationMin": "40.737190",
+      "DurationMax": "40.737190"
      },
      {
       "Id": "326967119",
@@ -47,9 +47,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\env_bird_chirping2",
       "GUID": "{622018EB-960E-4344-AB39-14F24EE73AD0}",
       "MaxAttenuation": "30.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "24.056826",
-      "DurationMax": "24.056826"
+      "DurationType": "Infinite"
      },
      {
       "Id": "1685368833",
@@ -123,13 +121,13 @@
       "Id": "121668151",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_987E2ED5.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_AC9A860D.wem"
      },
      {
       "Id": "135036215",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_71FBA4DE.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_84DBBF64.wem"
      },
      {
       "Id": "135814206",
@@ -141,7 +139,7 @@
       "Id": "150379404",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_7BD7958A.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_5A0A9621.wem"
      },
      {
       "Id": "242053235",
@@ -183,7 +181,7 @@
       "Id": "472861571",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204034__duckduckpony__footsteps-water-light-007.wav",
-      "Path": "SFX\\Footstep_water\\204034__duckduckpony__footsteps-water-light-007_FE9D643A.wem"
+      "Path": "SFX\\Footstep_water\\204034__duckduckpony__footsteps-water-light-007_9551BF14.wem"
      },
      {
       "Id": "490690718",
@@ -201,7 +199,7 @@
       "Id": "498806148",
       "Language": "SFX",
       "ShortName": "Birds\\339326__inspectorj__bird-whistling-a.wav",
-      "Path": "SFX\\Birds\\339326__inspectorj__bird-whistling-a_9E69E797.wem"
+      "Path": "SFX\\Birds\\339326__inspectorj__bird-whistling-a_4B8CC0C5.wem"
      },
      {
       "Id": "502497633",
@@ -219,7 +217,7 @@
       "Id": "561422158",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204032__duckduckpony__footsteps-water-light-005.wav",
-      "Path": "SFX\\Footstep_water\\204032__duckduckpony__footsteps-water-light-005_C2A8C127.wem"
+      "Path": "SFX\\Footstep_water\\204032__duckduckpony__footsteps-water-light-005_587EC00B.wem"
      },
      {
       "Id": "585604210",
@@ -231,7 +229,7 @@
       "Id": "644582612",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204035__duckduckpony__footsteps-water-light-008.wav",
-      "Path": "SFX\\Footstep_water\\204035__duckduckpony__footsteps-water-light-008_2019AB8B.wem"
+      "Path": "SFX\\Footstep_water\\204035__duckduckpony__footsteps-water-light-008_C834BEBC.wem"
      },
      {
       "Id": "671196794",
@@ -243,7 +241,7 @@
       "Id": "715019499",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204017__duckduckpony__footsteps-water-light-004.wav",
-      "Path": "SFX\\Footstep_water\\204017__duckduckpony__footsteps-water-light-004_46AEC91F.wem"
+      "Path": "SFX\\Footstep_water\\204017__duckduckpony__footsteps-water-light-004_6ABEF1AB.wem"
      },
      {
       "Id": "742044353",
@@ -255,49 +253,49 @@
       "Id": "781915980",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204013__duckduckpony__footsteps-water-light-002.wav",
-      "Path": "SFX\\Footstep_water\\204013__duckduckpony__footsteps-water-light-002_94984332.wem"
+      "Path": "SFX\\Footstep_water\\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem"
      },
      {
       "Id": "841071829",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624.wav",
-      "Path": "SFX\\Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624_3ADE2F05.wem"
+      "Path": "SFX\\Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624_6376AA83.wem"
      },
      {
       "Id": "898880659",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204014__duckduckpony__footsteps-water-light-001.wav",
-      "Path": "SFX\\Footstep_water\\204014__duckduckpony__footsteps-water-light-001_59ED92D5.wem"
+      "Path": "SFX\\Footstep_water\\204014__duckduckpony__footsteps-water-light-001_306D430B.wem"
      },
      {
       "Id": "909118349",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_9EA65103.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_DA78F783.wem"
      },
      {
       "Id": "943931174",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_7E2834E8.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_E3555519.wem"
      },
      {
       "Id": "1007205368",
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
-      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_9D782DB1.wem"
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_51D73D49.wem"
      },
      {
       "Id": "1018505841",
       "Language": "SFX",
       "ShortName": "Birds\\266832__supercell10__bird-chirping.wav",
-      "Path": "SFX\\Birds\\266832__supercell10__bird-chirping_5261983B.wem"
+      "Path": "SFX\\Birds\\266832__supercell10__bird-chirping_4B8CC0C5.wem"
      },
      {
       "Id": "1044104810",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204033__duckduckpony__footsteps-water-light-006.wav",
-      "Path": "SFX\\Footstep_water\\204033__duckduckpony__footsteps-water-light-006_8F60DE91.wem"
+      "Path": "SFX\\Footstep_water\\204033__duckduckpony__footsteps-water-light-006_2C31595F.wem"
      }
     ]
    }

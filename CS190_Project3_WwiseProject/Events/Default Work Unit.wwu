@@ -72,6 +72,9 @@
 				<Event Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}">
 					<ChildrenList>
 						<Action Name="Play" ID="{6F858ECA-C78D-47A5-BD84-03C3B8FCA8D7}" ShortID="196951325" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{2C5EB4EF-0C1E-432E-9626-4E9B5559BB71}" Global="false">
 									<ObjectRef Name="266832__supercell10__bird-chirping" ID="{0ABF3918-4DE6-4DD1-B6DB-DBAC6603FB54}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
