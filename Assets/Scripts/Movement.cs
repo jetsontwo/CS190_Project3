@@ -35,7 +35,7 @@ public class Movement : MonoBehaviour {
 
     //Walking State:
     public enum walkingState { Ground,concrete,gravel,water,dirt };
-    public walkingState playerWalkingState = walkingState.concrete;
+    public walkingState playerWalkingState = walkingState.Ground;
 
     // Use this for initialization
     void Start () {
