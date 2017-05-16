@@ -63,7 +63,7 @@ public class Movement : MonoBehaviour {
 
         MoveVector = new Vector3(horiz, 0, vert);
         //rb.MovePosition(rb.position + MoveVector * (speed/5f) * Time.fixedDeltaTime);
-        Debug.Log(playerWalkingState);
+        //Debug.Log(playerWalkingState);
 
         if (IsWalking)
         {

@@ -4,32 +4,49 @@ using UnityEngine;
 
 public class Player_Collect : MonoBehaviour {
 
-    private GameObject object_held;
+    private GameObject object_held = null, touching;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-            pickup();
+        if (Input.GetKeyDown(KeyCode.E) && touching)
+        {
+            if (object_held == null)
+                pickup();
+            else
+                setdown();
+        }
     }
 
     void pickup()
     {
+        object_held = touching;
         object_held.GetComponent<BoxCollider>().enabled = false;
         object_held.transform.parent = gameObject.transform;
         object_held.transform.localPosition = new Vector3(0.75f, 0, 0.75f);
         object_held.transform.localRotation = Quaternion.identity;
     }
+
+    void setdown()
+    {
+        object_held.GetComponent<BoxCollider>().enabled = true;
+        object_held.transform.localPosition = gameObject.transform.forward * 2;
+        object_held.transform.localRotation = Quaternion.identity;
+        object_held.transform.parent = null;
+        object_held = null;
+
+    }
+
 	void OnTriggerEnter(Collider c)
     {
-        if(!object_held)
+        if(!touching)
         {
-            object_held = c.gameObject;
+            touching = c.gameObject;
             
         }
     }
     void OnTriggerExit(Collider c)
     {
-        if (c.gameObject == object_held)
-            object_held = null;
+        if (c.gameObject == touching)
+            touching = null;
     }
 }
