@@ -29,10 +29,11 @@ public class Player_Collect : MonoBehaviour {
     void setdown()
     {
         object_held.GetComponent<BoxCollider>().enabled = true;
-        object_held.transform.localPosition = gameObject.transform.forward * 2;
+        object_held.transform.localPosition = new Vector3(0f,0f,0f);   //transform.forward * 2;
         object_held.transform.localRotation = Quaternion.identity;
         object_held.transform.parent = null;
         object_held = null;
+        touching = null;
 
     }
 
