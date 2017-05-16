@@ -29,9 +29,12 @@ public class Player_Collect : MonoBehaviour {
     void setdown()
     {
         object_held.GetComponent<BoxCollider>().enabled = true;
-        object_held.transform.localPosition = new Vector3(0f,0f,0f);   //transform.forward * 2;
-        object_held.transform.localRotation = Quaternion.identity;
         object_held.transform.parent = null;
+        object_held.transform.position = transform.position + transform.forward;
+
+        //Can do a raycast here to see if the pedistal to put it down is there 
+        //Else just drop it as it does now
+
         object_held = null;
         touching = null;
 
