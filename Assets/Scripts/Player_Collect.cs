@@ -19,6 +19,8 @@ public class Player_Collect : MonoBehaviour {
 
     void pickup()
     {
+        if (touching.tag != "Collect")
+            return;
         object_held = touching;
         object_held.GetComponent<BoxCollider>().enabled = false;
         object_held.transform.parent = gameObject.transform;
@@ -34,14 +36,31 @@ public class Player_Collect : MonoBehaviour {
         RaycastHit rh;
         Physics.Raycast(new Ray(transform.position, transform.forward), out rh, 1);
 
-        print(rh.collider);
-        object_held.transform.position = transform.position + transform.forward;
+        if (rh.collider)
+        {
+            if(rh.collider.gameObject.tag == "Post")
+            {
+                //Checks to make sure the item can be placed there
+                if (rh.collider.gameObject.GetComponent<Post_Controller>().post_item(object_held))
+                {
+                    object_held = null;
+                    touching = null;
+                }
+                else
+                    pickup();
+            }
+        }
+        else
+        {
+            object_held.transform.position = transform.position + transform.forward;
+            object_held = null;
+            touching = null;
+        }
 
         //Can do a raycast here to see if the pedistal to put it down is there 
         //Else just drop it as it does now
 
-        object_held = null;
-        touching = null;
+
 
     }
 
