@@ -52,7 +52,7 @@ public class Player_Collect : MonoBehaviour {
         }
         else
         {
-            object_held.transform.position = transform.position + transform.forward;
+            object_held.transform.position = new Vector3(transform.position.x + transform.forward.x, 0, transform.position.z + transform.forward.z);
             object_held = null;
             touching = null;
         }
