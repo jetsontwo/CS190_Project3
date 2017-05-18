@@ -6,7 +6,8 @@ public class Movement : MonoBehaviour {
 
     private Rigidbody rb;
     private float vert, horiz;
-    public float max_vel, speed, decelleration;
+    public float max_vel, speed, decelleration, jump_power;
+    private bool on_Ground = true;
 
     private Vector3 MoveVector = Vector3.zero;
     public bool IsWalking
@@ -56,8 +57,12 @@ public class Movement : MonoBehaviour {
 
         if (vert != 0 || horiz != 0)
         {
-            rb.velocity.Normalize();
-            rb.velocity *= Time.deltaTime * speed;
+            rb.velocity = new Vector3(rb.velocity.x * Time.deltaTime * speed, rb.velocity.y, rb.velocity.z * Time.deltaTime * speed);
+        }
+
+        if(on_Ground && Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddForce(new Vector3(0, jump_power, 0));
         }
         
 
@@ -118,22 +123,27 @@ public class Movement : MonoBehaviour {
         if (other.gameObject.tag == "concrete")
         {
             playerWalkingState = walkingState.concrete;
+            on_Ground = true;
         }
         if (other.gameObject.tag == "gravel")
         {
             playerWalkingState = walkingState.gravel;
+            on_Ground = true;
         }
         if (other.gameObject.tag == "water")
         {
             playerWalkingState = walkingState.water;
+            on_Ground = true;
         }
         if (other.gameObject.tag == "dirt")
         {
             playerWalkingState = walkingState.dirt;
+            on_Ground = true;
         }
         if (other.gameObject.tag == "Ground")
         {
             playerWalkingState = walkingState.Ground;
+            on_Ground = true;
         }
     }
 
@@ -143,18 +153,26 @@ public class Movement : MonoBehaviour {
         if (other.gameObject.tag == "gravel")
         {
             playerWalkingState = walkingState.Ground;
+            on_Ground = false;
         }
         if (other.gameObject.tag == "water")
         {
             playerWalkingState = walkingState.Ground;
+            on_Ground = false;
         }
         if (other.gameObject.tag == "dirt")
         {
             playerWalkingState = walkingState.Ground;
+            on_Ground = false;
         }
         if (other.gameObject.tag == "Ground")
         {
             playerWalkingState = walkingState.concrete;
+            on_Ground = false;
+        }
+        if(other.gameObject.tag == "concrete")
+        {
+            on_Ground = false;
         }
 
     }
