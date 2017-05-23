@@ -18,11 +18,11 @@ public class Camera_Track_Mouse : MonoBehaviour {
         {
             transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X") * rotate_speed, 0));
 
-            if (-Input.GetAxis("Mouse Y") * rotate_speed > 50 && cam.transform.eulerAngles.x <= 50)
-                cam.transform.Rotate(new Vector3(50, 0, 0));
-            else if (-Input.GetAxis("Mouse Y") * rotate_speed < 310 && cam.transform.eulerAngles.x >= 310)
-                cam.transform.Rotate(new Vector3(310, 0, 0));
-            else
+            //if (-Input.GetAxis("Mouse Y") * rotate_speed > 50 && cam.transform.eulerAngles.x <= 50)
+             //   cam.transform.Rotate(new Vector3(50, 0, 0));
+            //else if (-Input.GetAxis("Mouse Y") * rotate_speed < 310 && cam.transform.eulerAngles.x >= 310)
+             //   cam.transform.Rotate(new Vector3(310, 0, 0));
+            //else
                 cam.transform.Rotate(new Vector3(-Input.GetAxis("Mouse Y") * rotate_speed, 0, 0));
             
             print(cam.transform.eulerAngles);

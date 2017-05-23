@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour {
         else
         {
             Debug.DrawRay(transform.position, -transform.up * ground_search_dist);
-            if(Physics.Raycast(transform.position, -transform.up * ground_search_dist, LayerMask.NameToLayer("Ground")))
+            if(Physics.Raycast(transform.position, -transform.up * ground_search_dist, LayerMask.NameToLayer("Ground")) && rb.velocity.y == 0)
             {
                 on_Ground = true;
             }
