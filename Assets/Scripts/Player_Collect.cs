@@ -23,6 +23,8 @@ public class Player_Collect : MonoBehaviour {
             return;
         object_held = touching;
         object_held.GetComponent<BoxCollider>().enabled = false;
+        object_held.GetComponent<Box_Anim>().enabled = false;
+        object_held.GetComponent<Box_Anim>().StopAllCoroutines();
         object_held.transform.parent = gameObject.transform;
         object_held.transform.localPosition = new Vector3(0.75f, 0, 0.75f);
         object_held.transform.localRotation = Quaternion.identity;

@@ -25,7 +25,7 @@ public class Camera_Track_Mouse : MonoBehaviour {
             //else
                 cam.transform.Rotate(new Vector3(-Input.GetAxis("Mouse Y") * rotate_speed, 0, 0));
             
-            print(cam.transform.eulerAngles);
+            //print(cam.transform.eulerAngles);
             //if (cam.transform.eulerAngles.x > 60)
             //    cam.transform.eulerAngles = (new Vector3(60, 0, 0));
             //else if (cam.transform.eulerAngles.x < -40)
