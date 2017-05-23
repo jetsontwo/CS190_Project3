@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour {
 
     private Rigidbody rb;
     private float vert, horiz;
-    public float max_vel, speed, decelleration, jump_power;
+    public float max_vel, speed, decelleration, jump_power, ground_search_dist;
     private bool on_Ground = true;
 
     private Vector3 MoveVector = Vector3.zero;
@@ -45,6 +45,24 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //Ground detection
+        if (rb.velocity.y == 0 && !on_Ground)
+            on_Ground = true;
+        else
+        {
+            Debug.DrawRay(transform.position, -transform.up * ground_search_dist);
+            if(Physics.Raycast(transform.position, -transform.up * ground_search_dist, LayerMask.NameToLayer("Ground")))
+            {
+                on_Ground = true;
+            }
+            else
+                on_Ground = false;
+
+        }
+
+
+
+
         vert = Input.GetAxisRaw("Vertical");
         horiz = Input.GetAxisRaw("Horizontal");
 
@@ -62,6 +80,7 @@ public class Movement : MonoBehaviour {
 
         if(on_Ground && Input.GetKeyDown(KeyCode.Space))
         {
+            on_Ground = false;
             rb.AddForce(new Vector3(0, jump_power, 0));
         }
         
@@ -143,7 +162,6 @@ public class Movement : MonoBehaviour {
         if (other.gameObject.tag == "Ground")
         {
             playerWalkingState = walkingState.Ground;
-            on_Ground = true;
         }
     }
 
@@ -168,10 +186,6 @@ public class Movement : MonoBehaviour {
         if (other.gameObject.tag == "Ground")
         {
             playerWalkingState = walkingState.concrete;
-            on_Ground = false;
-        }
-        if(other.gameObject.tag == "concrete")
-        {
             on_Ground = false;
         }
 
