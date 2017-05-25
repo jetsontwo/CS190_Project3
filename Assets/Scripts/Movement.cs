@@ -68,15 +68,11 @@ public class Movement : MonoBehaviour {
 
         
         if (vert != 0 && rb.velocity.magnitude < max_vel)
-            rb.velocity += transform.forward * vert;
+            rb.velocity += transform.forward * vert * Time.deltaTime * speed;
         if (horiz != 0 && rb.velocity.magnitude < max_vel)
-            rb.velocity += transform.right * horiz;
+            rb.velocity += transform.right * horiz * Time.deltaTime * speed;
 
 
-        if (vert != 0 || horiz != 0)
-        {
-            rb.velocity = new Vector3(rb.velocity.x * Time.deltaTime * speed, rb.velocity.y, rb.velocity.z * Time.deltaTime * speed);
-        }
 
         if(on_Ground && Input.GetKeyDown(KeyCode.Space))
         {
