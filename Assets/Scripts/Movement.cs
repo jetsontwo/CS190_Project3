@@ -66,11 +66,18 @@ public class Movement : MonoBehaviour {
         vert = Input.GetAxisRaw("Vertical");
         horiz = Input.GetAxisRaw("Horizontal");
 
-        
-        if (vert != 0 && rb.velocity.magnitude < max_vel)
-            rb.velocity += transform.forward * vert * Time.deltaTime * speed;
-        if (horiz != 0 && rb.velocity.magnitude < max_vel)
+
+        if (horiz != 0 && vert != 0 && rb.velocity.magnitude < max_vel)
+        {
+            rb.velocity += (transform.forward * vert) * Time.deltaTime * speed;
             rb.velocity += transform.right * horiz * Time.deltaTime * speed;
+        }
+        else if (vert != 0 && rb.velocity.magnitude < max_vel)
+            rb.velocity += transform.forward * vert * Time.deltaTime * speed;
+        else if (horiz != 0 && rb.velocity.magnitude < max_vel)
+            rb.velocity += transform.right * horiz * Time.deltaTime * speed;
+
+
 
 
 
