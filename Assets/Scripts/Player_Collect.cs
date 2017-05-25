@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Collect : MonoBehaviour {
 
     private GameObject object_held = null, touching;
+    public float drop_dist;
 
     void Update()
     {
@@ -55,7 +56,10 @@ public class Player_Collect : MonoBehaviour {
         }
         else
         {
-            object_held.transform.position = new Vector3(transform.position.x + transform.forward.x, 0, transform.position.z + transform.forward.z);
+            object_held.transform.position = new Vector3(transform.position.x + transform.forward.x, transform.position.y - drop_dist, transform.position.z + transform.forward.z);
+            object_held.GetComponent<Box_Anim>().enabled = true;
+            object_held.GetComponent<ParticleSystem>().Play();
+
             object_held = null;
             touching = null;
         }

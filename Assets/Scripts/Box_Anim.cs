@@ -6,7 +6,7 @@ public class Box_Anim : MonoBehaviour {
 
     public float low, high, bob_dist;
 
-    void Start()
+    void OnEnable()
     {
         StartCoroutine(Bob(transform.position.y, bob_dist));
     }
