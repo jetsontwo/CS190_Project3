@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour {
     private Vector3 LastPosition;
 
     private float WalkTimer = 0.0f;
-    private float speedfactor = 1.5f;
+    private float speedfactor = 2f;
     private float FootStepInterval
     {
         get { return (speed/(speed+5)) / speedfactor; } //second speed can be adjusted for running
