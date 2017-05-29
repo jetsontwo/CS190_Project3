@@ -33,6 +33,7 @@ public class Camera_Track_Mouse : MonoBehaviour {
             //            move_y = 0;
             //    }
             //}
+            cam.transform.Rotate(new Vector3(-Input.GetAxis("Mouse Y") * rotate_speed, 0, 0));
 
         }
 
