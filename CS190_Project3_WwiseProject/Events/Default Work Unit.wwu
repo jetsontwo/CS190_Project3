@@ -94,6 +94,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Wind" ID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B2DE4998-BA26-46C0-ADD9-6A0E6EEC9792}" ShortID="213408812" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA6B76C5-6C8E-41F5-BC61-CF3B09EEF688}" Global="false">
+									<ObjectRef Name="wind" ID="{A4B6D2C9-04C7-486F-A982-6576C8819A56}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

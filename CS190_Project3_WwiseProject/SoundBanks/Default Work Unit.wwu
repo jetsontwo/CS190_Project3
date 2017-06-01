@@ -12,6 +12,7 @@
 						<ObjectRef Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_concrete" ID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_water" ID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Wind" ID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_dirt" ID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

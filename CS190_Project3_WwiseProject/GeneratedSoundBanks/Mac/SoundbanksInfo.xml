@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}" Language="SFX">
+		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="40.737190" DurationMax="40.737190"/>
-				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="Infinite"/>
-				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete" GUID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" DurationType="OneShot" DurationMin="0.443583" DurationMax="0.719070"/>
-				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt" GUID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" DurationType="OneShot" DurationMin="0.496349" DurationMax="0.859365"/>
-				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel" GUID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" DurationType="OneShot" DurationMin="0.386644" DurationMax="0.545941"/>
-				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile" GUID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" DurationType="OneShot" DurationMin="0.393764" DurationMax="0.662993"/>
-				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water" GUID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" DurationType="OneShot" DurationMin="0.755568" DurationMax="0.808242"/>
-				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood" GUID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" DurationType="OneShot" DurationMin="0.410010" DurationMax="0.447283"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="47311494" Language="SFX">
@@ -122,6 +123,10 @@
 				<File Id="715019499" Language="SFX">
 					<ShortName>Footstep_water\204017__duckduckpony__footsteps-water-light-004.wav</ShortName>
 					<Path>SFX\Footstep_water\204017__duckduckpony__footsteps-water-light-004_6ABEF1AB.wem</Path>
+				</File>
+				<File Id="719293819" Language="SFX">
+					<ShortName>wind.wav</ShortName>
+					<Path>SFX\wind_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="742044353" Language="SFX">
 					<ShortName>Gravel\FS_Gravel_04.wav</ShortName>
