@@ -29,7 +29,6 @@ public class event_trigger : MonoBehaviour {
             myplayer = other.gameObject;
             player_old_position = other.transform.position;
             camera_old_position = myCamera.transform.localPosition;
-            print(camera_old_position);
             player_old_rotation = other.transform.rotation;
             camera_old_rotation = myCamera.transform.localRotation;
 
@@ -55,7 +54,6 @@ public class event_trigger : MonoBehaviour {
         myplayer.transform.position = player_old_position;
         myplayer.transform.rotation = player_old_rotation;
 
-        Debug.Log("Done rotation: " + myCamera.transform.position.x.ToString() + " " + myCamera.transform.position.y.ToString() + " " + myCamera.transform.position.z.ToString());
         mycutscene.EndCutscene();
     }
 }
