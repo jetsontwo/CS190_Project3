@@ -769,7 +769,6 @@
 												<Value>3</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="10"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
@@ -797,7 +796,6 @@
 								</Sound>
 								<Sound Name="339326__inspectorj__bird-whistling-a" ID="{5A2607E4-9352-447A-818A-E77C93311A25}" ShortID="390841103" Type="SoundFX">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
