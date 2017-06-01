@@ -10,15 +10,10 @@ public class Ambient_Sounds : MonoBehaviour {
 	void Start () {
         StartCoroutine(StartDelay());
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     IEnumerator StartDelay()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(Random.Range(0.5f, 3f));
         AkSoundEngine.PostEvent(soundEvent, gameObject);
     }
 }
