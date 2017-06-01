@@ -35,9 +35,15 @@ public class event_trigger : MonoBehaviour {
             if (mycutscene.playingCutscene == false)
             {
                 mycutscene.ActivateCutscene();
+                Debug.Log("start camera!");
+                //Start event:
+                StartCoroutine("fish_event");
+
                 StartCoroutine("Finish");
                 myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = false;
                 myplayer.gameObject.GetComponent<Movement>().enabled = false;
+
+                
             }
 
         }
@@ -55,5 +61,11 @@ public class event_trigger : MonoBehaviour {
         myplayer.transform.rotation = player_old_rotation;
 
         mycutscene.EndCutscene();
+    }
+    IEnumerator fish_event()
+    {
+        Debug.Log("flying!");
+        yield return new WaitForSeconds(3f);
+        flying_fish.Play();
     }
 }
