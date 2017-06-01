@@ -13,6 +13,9 @@ public class event_trigger : MonoBehaviour {
     private Vector3 camera_old_position;
     private Quaternion camera_old_rotation;
 
+    private Vector3 player_old_position;
+    private Quaternion player_old_rotation;
+
     // Use this for initialization
     void Start () {
         myCamera = Camera.main;
@@ -25,12 +28,15 @@ public class event_trigger : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        camera_old_position = new Vector3(myCamera.transform.position.x, myCamera.transform.position.y, myCamera.transform.position.z);
-        camera_old_rotation = new Quaternion(myCamera.transform.rotation.x, myCamera.transform.rotation.y, myCamera.transform.rotation.z, myCamera.transform.rotation.w);
-
+        
         if (other.tag == "Player")
         {
             myplayer = other.gameObject;
+            player_old_position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y+0.8f, this.gameObject.transform.position.z);
+            camera_old_position = new Vector3(player_old_position[0], player_old_position[1]+1.25f, player_old_position[2]);
+            player_old_rotation = new Quaternion(myplayer.transform.rotation.x, myplayer.transform.rotation.y, myplayer.transform.rotation.z, myplayer.transform.rotation.w);
+            camera_old_rotation = new Quaternion(myCamera.transform.rotation.x, myCamera.transform.rotation.y, myCamera.transform.rotation.z, myCamera.transform.rotation.w);
+
             if (mycutscene.playingCutscene == false)
             {
                 mycutscene.ActivateCutscene();
@@ -50,6 +56,9 @@ public class event_trigger : MonoBehaviour {
         
         myCamera.transform.position = camera_old_position;
         myCamera.transform.rotation = camera_old_rotation;
+
+        myplayer.transform.position = player_old_position;
+        myplayer.transform.rotation = player_old_rotation;
 
         Debug.Log("Done rotation: " + myCamera.transform.position.x.ToString() + " " + myCamera.transform.position.y.ToString() + " " + myCamera.transform.position.z.ToString());
         mycutscene.EndCutscene();
