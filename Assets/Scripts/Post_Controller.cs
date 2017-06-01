@@ -22,7 +22,7 @@ public class Post_Controller : MonoBehaviour {
         item_held = item;
         item_held.transform.parent = transform;
         item_held.transform.localPosition = new Vector3(0, 2f, 0);
-        item_held.GetComponent<Activate_Sounds>().activate(0.25f);
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.25f));
         return true;
     }
 }
