@@ -1199,6 +1199,140 @@
 						<ActiveSource Name="WTR_Waves, Water_3D04_09_01" ID="{11DF2441-7027-4171-AEEF-144473C9730A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="fish_sounds" ID="{A45AA29F-9FE3-4990-9972-9AB0B43F5460}" ShortID="995634999">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Fish" ID="{A2B575ED-3002-4B3E-A291-FDFA1EB27565}" ShortID="702101132">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ComedyAccent 6103_58_2" ID="{60178C9D-0B6D-48DF-AF77-7F74D82E5080}" ShortID="180758500" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_2" ID="{6E2C4EB7-AFA9-44E2-9BC1-F72F5C8C7A5C}" ShortID="371769578">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_2" ID="{6E2C4EB7-AFA9-44E2-9BC1-F72F5C8C7A5C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ComedyAccent 6103_58_3" ID="{462CCCB9-02A2-4829-9756-44E03D00FF5F}" ShortID="772513626" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_3" ID="{C01AD195-8585-4288-B4BB-1B105DAC6031}" ShortID="1004164203">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_3" ID="{C01AD195-8585-4288-B4BB-1B105DAC6031}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ComedyAccent 6103_58_4" ID="{B3AC4BE0-EFEB-4EAB-9CF4-5DF95997BF5F}" ShortID="130857742" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_4" ID="{49DCE296-11DC-407A-B2D7-BD8D661D73D6}" ShortID="407670381">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_4" ID="{49DCE296-11DC-407A-B2D7-BD8D661D73D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ComedyAccent 6103_58_5" ID="{4262E412-4149-43BD-8C03-DA224B21B76B}" ShortID="1040572607" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_5" ID="{4EC9507E-916F-446D-BE3F-BBA7E513295D}" ShortID="967197798">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_5" ID="{4EC9507E-916F-446D-BE3F-BBA7E513295D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ComedyAccent 6103_58_6" ID="{D349F95C-1A52-48A2-876D-B9315F19F3DD}" ShortID="746085034" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_6" ID="{0873AA0D-D268-4FD7-8E3D-FD6BCC6E0186}" ShortID="407730853">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_6" ID="{0873AA0D-D268-4FD7-8E3D-FD6BCC6E0186}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ComedyAccent 6103_58_1" ID="{FC3E9498-3345-42A3-939D-0AE3D728907C}" ShortID="770040403" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ComedyAccent 6103_58_1" ID="{D5079A3E-A6CF-4065-A810-8E2CA4D2C4F4}" ShortID="707947815">
+											<Language>SFX</Language>
+											<AudioFile>download_CS190_20170601-160609\ComedyAccent 6103_58_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ComedyAccent 6103_58_1" ID="{D5079A3E-A6CF-4065-A810-8E2CA4D2C4F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

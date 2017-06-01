@@ -116,6 +116,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fish_Sounds" ID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}">
+					<ChildrenList>
+						<Action Name="Play" ID="{670291F9-76ED-4333-976F-D53CDC12412D}" ShortID="649000786" Type="Play" Scope="One" Global="false"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

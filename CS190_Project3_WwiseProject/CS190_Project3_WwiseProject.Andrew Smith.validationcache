@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="705462191" DateHigh="30595880"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2601671010" DateHigh="30595884"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1230802394" DateHigh="30595875"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1768147640" DateHigh="30593062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1777731162" DateHigh="30593062"/>
@@ -11,7 +11,7 @@
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1778122185" DateHigh="30593062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1778372847" DateHigh="30593062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Effects\Factory Effects.wwu" DateLow="1778543283" DateHigh="30593062"/>
-	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Events\Default Work Unit.wwu" DateLow="816701538" DateHigh="30595874"/>
+	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Events\Default Work Unit.wwu" DateLow="2602282632" DateHigh="30595884"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1778754146" DateHigh="30593062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1786420501" DateHigh="30593062"/>
 	<ValidationCacheItem File="C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1786520768" DateHigh="30593062"/>
