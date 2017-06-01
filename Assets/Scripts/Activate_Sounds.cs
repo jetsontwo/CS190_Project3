@@ -11,7 +11,6 @@ public class Activate_Sounds : MonoBehaviour {
     {
         foreach (GameObject item in list_of_objects)
         {
-            print("al");
             item.SetActive(true);
             yield return new WaitForSeconds(time_between);
         }

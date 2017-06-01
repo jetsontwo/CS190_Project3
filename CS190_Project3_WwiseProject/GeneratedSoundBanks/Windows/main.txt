@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1685368833	PlayerWalk_concrete			\Default Work Unit\PlayerWalk_concrete	
 	1876925021	PlayerWalk_water			\Default Work Unit\PlayerWalk_water	
 	2308746324	PlayerWalk_tile			\Default Work Unit\PlayerWalk_tile	
+	2453122309	Waves			\Default Work Unit\Waves	
 	3277136171	PlayerWalk_dirt			\Default Work Unit\PlayerWalk_dirt	
 	3420637487	PlayerWalk_wood			\Default Work Unit\PlayerWalk_wood	
 
@@ -37,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	742044353	FS_Gravel_04	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Gravel\FS_Gravel_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_04		35218
 	781915980	204013__duckduckpony__footsteps-water-light-002	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_water\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_water\204013__duckduckpony__footsteps-water-light-002		145132
 	841071829	204018__duckduckpony__footsteps-water-light-003-9624	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624_6376AA83.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624		154956
+	844563533	WTR_Waves, Water_3D04_09_01	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\WTR_Waves, Water_3D04_09_01		13828160
 	898880659	204014__duckduckpony__footsteps-water-light-001	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_water\204014__duckduckpony__footsteps-water-light-001_306D430B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_water\204014__duckduckpony__footsteps-water-light-001		155220
 	909118349	FootstepsWood 6017_09_04	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_Wood\FootstepsWood 6017_09_2_DA78F783.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_Wood\FootstepsWood 6017_09_04		78964
 	943931174	FootstepsWood 6017_09_01	C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_Wood\FootstepsWood 6017_09_2_E3555519.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_Wood\FootstepsWood 6017_09_01		73704

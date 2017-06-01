@@ -9,6 +9,7 @@
 						<ObjectRef Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="env_bird_chirping2" ID="{622018EB-960E-4344-AB39-14F24EE73AD0}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Waves" ID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_concrete" ID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_water" ID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>

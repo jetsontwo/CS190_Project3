@@ -1175,6 +1175,32 @@
 						<ActiveSource Name="wind" ID="{3E108835-A2C7-4F43-B5A0-3ED25E1DCFAF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="WTR_Waves, Water_3D04_09_01" ID="{8DA74600-5BDC-4A6F-8648-0314D7D92386}" ShortID="558948095" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="waves_atten" ID="{616E419D-1590-457B-84D7-2367C54BA592}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WTR_Waves, Water_3D04_09_01" ID="{11DF2441-7027-4171-AEEF-144473C9730A}" ShortID="844563533">
+							<Language>SFX</Language>
+							<AudioFile>WTR_Waves, Water_3D04_09_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WTR_Waves, Water_3D04_09_01" ID="{11DF2441-7027-4171-AEEF-144473C9730A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

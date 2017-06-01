@@ -105,6 +105,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Waves" ID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0B664387-645B-493B-8768-0F0B9EE48B91}" ShortID="351079586" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8D1416AE-C12E-4FAC-BB3D-5CB17E867640}" Global="false">
+									<ObjectRef Name="WTR_Waves, Water_3D04_09_01" ID="{8DA74600-5BDC-4A6F-8648-0314D7D92386}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

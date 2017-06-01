@@ -29,6 +29,7 @@
 				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
 				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
 				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
 				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -139,6 +140,10 @@
 				<File Id="841071829" Language="SFX">
 					<ShortName>Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624.wav</ShortName>
 					<Path>SFX\Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624_6376AA83.wem</Path>
+				</File>
+				<File Id="844563533" Language="SFX">
+					<ShortName>WTR_Waves, Water_3D04_09_01.wav</ShortName>
+					<Path>SFX\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="898880659" Language="SFX">
 					<ShortName>Footstep_water\204014__duckduckpony__footsteps-water-light-001.wav</ShortName>

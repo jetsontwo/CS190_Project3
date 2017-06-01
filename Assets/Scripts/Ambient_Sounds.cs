@@ -14,6 +14,6 @@ public class Ambient_Sounds : MonoBehaviour {
     IEnumerator StartDelay()
     {
         yield return new WaitForSeconds(Random.Range(0.5f, 3f));
-        AkSoundEngine.PostEvent(soundEvent[Random.Range(0,2)], gameObject);
+        AkSoundEngine.PostEvent(soundEvent[Random.Range(0,soundEvent.Length)], gameObject);
     }
 }

@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID PLAYERWALK_TILE = 2308746324U;
         static const AkUniqueID PLAYERWALK_WATER = 1876925021U;
         static const AkUniqueID PLAYERWALK_WOOD = 3420637487U;
+        static const AkUniqueID WAVES = 2453122309U;
         static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS
 
