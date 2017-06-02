@@ -11,11 +11,14 @@
 						<ObjectRef Name="PlayerWalk_water_close" ID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="env_bird_chirping2" ID="{622018EB-960E-4344-AB39-14F24EE73AD0}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="pickup" ID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Hints" ID="{38526344-2231-45E0-A46F-5840875A23EA}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Waves" ID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_concrete" ID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_water" ID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wind" ID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="pick_up_object" ID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_dirt" ID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -22,6 +22,7 @@ public class Player_Collect : MonoBehaviour {
     {
         if (touching.tag != "Collect")
             return;
+        AkSoundEngine.PostEvent("pickup", gameObject);
         object_held = touching;
         object_held.GetComponent<BoxCollider>().enabled = false;
         object_held.GetComponent<Box_Anim>().enabled = false;

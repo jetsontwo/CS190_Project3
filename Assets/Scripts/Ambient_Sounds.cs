@@ -13,10 +13,20 @@ public class Ambient_Sounds : MonoBehaviour {
 
     IEnumerator StartDelay()
     {
-        while(true)
+
+        if (gameObject.tag == "Collect")
         {
             yield return new WaitForSeconds(Random.Range(2f, 4f));
             AkSoundEngine.PostEvent(soundEvent[Random.Range(0, soundEvent.Length)], gameObject);
+            
+        }
+        else
+        {     
+            while (true)
+            {
+                yield return new WaitForSeconds(Random.Range(2f, 4f));
+                AkSoundEngine.PostEvent(soundEvent[Random.Range(0, soundEvent.Length)], gameObject);
+            }
         }
     }
 }

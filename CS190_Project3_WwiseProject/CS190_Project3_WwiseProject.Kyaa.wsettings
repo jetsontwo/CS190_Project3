@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{722C351E-67CC-4FAC-9811-6F3635ACB351}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\Sounds\pickupItem"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -22,7 +23,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="m/tzYrZS7k+YkdrfoFrQyyOhQ57e8LREr9dFmB7QUmU="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="MGjQRklE8Uqvn2XhC0BHxA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="QADsaIevYUu0x8oZVNeeJAH+7Bb/////AN12NvI9TEueJhBNYLREYAH+7Bb/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="AN12NvI9TEueJhBNYLREYAGpYxf/////QADsaIevYUu0x8oZVNeeJAGpYxf/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -48,11 +49,11 @@
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="zwpDgSzEJUK25gNzEu4SMmpW9VOOu8dFkMR1K7zaw6Sfolqk45+QSZlymrC0P1Rg7XW1ogIwPkuikf36HrJ1Zc7oZ0zK8zJMsyv8dASP6kPbK4FiwD3zTJff9snKR7TQ"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="zwpDgSzEJUK25gNzEu4SMmpW9VOOu8dFkMR1K7zaw6Q17dSE5DxrR66KuJzaoS7Hn6JapOOfkEmZcpqwtD9UYO11taICMD5LopH9+h6ydWXO6GdMyvMyTLMr/HQEj+pD2yuBYsA980yX3/bJyke00A=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ucAL5Karpkes0cYO2wNQUQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="kafEqpR7AU+sCuf+BosYyw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="SettingsUserOverride" Type="bool" Value="True"/>

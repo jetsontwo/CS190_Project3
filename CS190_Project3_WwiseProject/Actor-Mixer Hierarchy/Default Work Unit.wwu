@@ -949,7 +949,6 @@
 												<Value>3</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="10"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
@@ -991,6 +990,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="339326__inspectorj__bird-whistling-a" ID="{9A5B188E-B412-4B94-9550-867E53B867CF}" ShortID="498806148">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="5.23438918492204"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Birds\339326__inspectorj__bird-whistling-a.wav</AudioFile>
 										</AudioFileSource>
@@ -1006,139 +1008,6 @@
 				<Folder Name="XX__inGame_sounds" ID="{EFFD9ACA-22EF-472A-95A6-D6B11E4D3013}" ShortID="187720036"/>
 				<Folder Name="SOUND" ID="{9086CFB0-BEDE-4430-8BF5-A0F21EA0461E}" ShortID="123887682">
 					<ChildrenList>
-						<Sound Name="HINT1" ID="{9E9D1DDD-5F8F-48BA-A6F7-B6AFD827D4AD}" ShortID="16417507" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT1" ID="{A3044F43-4D4B-4D88-8D6F-6B9E84A8B6E8}" ShortID="4729481">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT1.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT1" ID="{A3044F43-4D4B-4D88-8D6F-6B9E84A8B6E8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT2" ID="{7DEE5574-EEC9-4D5A-A46A-A5DC10B1D0E2}" ShortID="330289113" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT2" ID="{A9D9409C-1DE1-4912-B5AF-96D816937341}" ShortID="1062874526">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT2.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT2" ID="{A9D9409C-1DE1-4912-B5AF-96D816937341}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT3" ID="{6A9B3B45-47A6-4197-9086-DFE3514D1FB9}" ShortID="885652226" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT3" ID="{763DD708-AD55-4EBC-8101-AEC0A122DDE4}" ShortID="700856156">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT3.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT3" ID="{763DD708-AD55-4EBC-8101-AEC0A122DDE4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT4" ID="{EE0057C5-FDE6-4617-A497-7DE0386ADA72}" ShortID="407964666" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT4" ID="{58290A85-E224-4C1F-90D9-2E38A71B1347}" ShortID="311420785">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT4.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT4" ID="{58290A85-E224-4C1F-90D9-2E38A71B1347}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT5" ID="{FDE319E9-2F31-4155-B3FE-41ECFD76FE7E}" ShortID="181920806" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT5" ID="{0D1F4B34-82A7-401C-B07B-BFCE04942D8D}" ShortID="960984688">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT5.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT5" ID="{0D1F4B34-82A7-401C-B07B-BFCE04942D8D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT6" ID="{4CA4C1D2-6FE7-43D3-BC9F-34BC0A1C8E0B}" ShortID="487572082" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT6" ID="{32153C26-A8D1-42DD-BCCA-12B69188E3E6}" ShortID="429677698">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT6.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT6" ID="{32153C26-A8D1-42DD-BCCA-12B69188E3E6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="HINT7" ID="{1D218AA9-1D39-473B-B535-47EE22C0FE2D}" ShortID="434736183" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="HINT7" ID="{9637C9A9-5274-4EEE-9514-004676D67DC7}" ShortID="641280759">
-									<Language>SFX</Language>
-									<AudioFile>SOUND\HINT7.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="HINT7" ID="{9637C9A9-5274-4EEE-9514-004676D67DC7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="PICK UP OBJECT" ID="{3B59C812-A103-4814-8D7F-991E6BF199A8}" ShortID="171796874" Type="SoundFX">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1527,6 +1396,223 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Hints" ID="{8762E44E-1EED-4A15-BD50-821986D8A527}" ShortID="252190042">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="HINT6" ID="{4CA4C1D2-6FE7-43D3-BC9F-34BC0A1C8E0B}" ShortID="487572082" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT6" ID="{32153C26-A8D1-42DD-BCCA-12B69188E3E6}" ShortID="429677698">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="7.17209192735709E-02"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT6" ID="{32153C26-A8D1-42DD-BCCA-12B69188E3E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT2" ID="{7DEE5574-EEC9-4D5A-A46A-A5DC10B1D0E2}" ShortID="330289113" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT2" ID="{A9D9409C-1DE1-4912-B5AF-96D816937341}" ShortID="1062874526">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.533188981927881"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT2" ID="{A9D9409C-1DE1-4912-B5AF-96D816937341}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT1" ID="{9E9D1DDD-5F8F-48BA-A6F7-B6AFD827D4AD}" ShortID="16417507" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT1" ID="{A3044F43-4D4B-4D88-8D6F-6B9E84A8B6E8}" ShortID="4729481">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="1.00345935887677"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT1" ID="{A3044F43-4D4B-4D88-8D6F-6B9E84A8B6E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT7" ID="{1D218AA9-1D39-473B-B535-47EE22C0FE2D}" ShortID="434736183" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT7" ID="{9637C9A9-5274-4EEE-9514-004676D67DC7}" ShortID="641280759">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.147451698263675"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT7" ID="{9637C9A9-5274-4EEE-9514-004676D67DC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT3" ID="{6A9B3B45-47A6-4197-9086-DFE3514D1FB9}" ShortID="885652226" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT3" ID="{763DD708-AD55-4EBC-8101-AEC0A122DDE4}" ShortID="700856156">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.320383675080453"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT3" ID="{763DD708-AD55-4EBC-8101-AEC0A122DDE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT5" ID="{FDE319E9-2F31-4155-B3FE-41ECFD76FE7E}" ShortID="181920806" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT5" ID="{0D1F4B34-82A7-401C-B07B-BFCE04942D8D}" ShortID="960984688">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.329664576310098"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT5" ID="{0D1F4B34-82A7-401C-B07B-BFCE04942D8D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HINT4" ID="{EE0057C5-FDE6-4617-A497-7DE0386ADA72}" ShortID="407964666" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HINT4" ID="{58290A85-E224-4C1F-90D9-2E38A71B1347}" ShortID="311420785">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.351212890129409"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SOUND\HINT4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HINT4" ID="{58290A85-E224-4C1F-90D9-2E38A71B1347}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="pickingup_small_box" ID="{D5C1ED13-8854-4CBC-8AEA-83861BE06D0C}" ShortID="313832203" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="216629__wiesenwiesel__picking-up-small-box-with-items-inside" ID="{8D7812BA-6B21-41A2-A273-9D6EBDD7957A}" ShortID="614457036">
+							<Language>SFX</Language>
+							<AudioFile>216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="216629__wiesenwiesel__picking-up-small-box-with-items-inside" ID="{8D7812BA-6B21-41A2-A273-9D6EBDD7957A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

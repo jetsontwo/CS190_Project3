@@ -138,6 +138,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="pick_up_object" ID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}">
+					<ChildrenList>
+						<Action Name="Play" ID="{93597DC2-1FD8-4588-9FE1-DD78EBA7B311}" ShortID="515261502" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A609A839-25F6-4507-A6B2-1251A6DE3369}" Global="false">
+									<ObjectRef Name="PICK UP OBJECT" ID="{3B59C812-A103-4814-8D7F-991E6BF199A8}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hints" ID="{38526344-2231-45E0-A46F-5840875A23EA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9167A823-4151-48D6-A1A9-75EDD9DC0231}" ShortID="45958283" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6A4E4FFE-035B-46AB-AE57-FED343EB61D5}" Global="false">
+									<ObjectRef Name="Hints" ID="{8762E44E-1EED-4A15-BD50-821986D8A527}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pickup" ID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9F01F16C-2F5C-41D6-9043-D7F03CF650B1}" ShortID="825518849" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BAB59A3E-50A5-4245-BB73-11957B302C75}" Global="false">
+									<ObjectRef Name="pickingup_small_box" ID="{D5C1ED13-8854-4CBC-8AEA-83861BE06D0C}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

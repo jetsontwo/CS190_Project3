@@ -48,8 +48,8 @@
       "GUID": "{622018EB-960E-4344-AB39-14F24EE73AD0}",
       "MaxAttenuation": "30.000000",
       "DurationType": "OneShot",
-      "DurationMin": "24.056826",
-      "DurationMax": "24.056826"
+      "DurationMin": "5.234389",
+      "DurationMax": "5.234389"
      },
      {
       "Id": "2839789934",
@@ -60,6 +60,32 @@
       "DurationType": "OneShot",
       "DurationMin": "0.696599",
       "DurationMax": "4.307302"
+     },
+     {
+      "Id": "3420417565",
+      "Name": "Hints",
+      "ObjectPath": "\\Events\\Default Work Unit\\Hints",
+      "GUID": "{38526344-2231-45E0-A46F-5840875A23EA}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3861027660",
+      "Name": "pick_up_object",
+      "ObjectPath": "\\Events\\Default Work Unit\\pick_up_object",
+      "GUID": "{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.490181",
+      "DurationMax": "10.490181"
+     },
+     {
+      "Id": "3978245845",
+      "Name": "pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\pickup",
+      "GUID": "{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.387710",
+      "DurationMax": "1.387710"
      },
      {
       "Id": "1685368833",
@@ -142,6 +168,12 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "4729481",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT1.wav",
+      "Path": "SFX\\SOUND\\HINT1_327F52AF.wem"
+     },
+     {
       "Id": "4874044",
       "Language": "SFX",
       "ShortName": "Footstep_Water_close\\270424__littlerobotsoundfactory__footstep-water-06.wav",
@@ -211,13 +243,19 @@
       "Id": "271382503",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_02.wav",
-      "Path": "SFX\\Dirt\\FS_Dirt_02_39BC88EB.wem"
+      "Path": "SFX\\Dirt\\FS_Dirt_02_7A8E76E3.wem"
      },
      {
       "Id": "298817083",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_01.wav",
       "Path": "SFX\\Dirt\\FS_Dirt_01_9E69E797.wem"
+     },
+     {
+      "Id": "311420785",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT4.wav",
+      "Path": "SFX\\SOUND\\HINT4_C8E33E00.wem"
      },
      {
       "Id": "333675292",
@@ -247,7 +285,7 @@
       "Id": "399336684",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_03.wav",
-      "Path": "SFX\\Dirt\\FS_Dirt_03_959D7F69.wem"
+      "Path": "SFX\\Dirt\\FS_Dirt_03_582AA0F2.wem"
      },
      {
       "Id": "407670381",
@@ -289,7 +327,7 @@
       "Id": "498806148",
       "Language": "SFX",
       "ShortName": "Birds\\339326__inspectorj__bird-whistling-a.wav",
-      "Path": "SFX\\Birds\\339326__inspectorj__bird-whistling-a_9E69E797.wem"
+      "Path": "SFX\\Birds\\339326__inspectorj__bird-whistling-a_E18833A3.wem"
      },
      {
       "Id": "502497633",
@@ -301,7 +339,7 @@
       "Id": "532684422",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_04.wav",
-      "Path": "SFX\\Dirt\\FS_Dirt_04_70AFED12.wem"
+      "Path": "SFX\\Dirt\\FS_Dirt_04_2424265B.wem"
      },
      {
       "Id": "561422158",
@@ -314,6 +352,18 @@
       "Language": "SFX",
       "ShortName": "Concrete\\FS_Concrete_04.wav",
       "Path": "SFX\\Concrete\\FS_Concrete_04_9E69E797.wem"
+     },
+     {
+      "Id": "614457036",
+      "Language": "SFX",
+      "ShortName": "216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav",
+      "Path": "SFX\\216629__wiesenwiesel__picking-up-small-box-with-items-inside_9E69E797.wem"
+     },
+     {
+      "Id": "641280759",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT7.wav",
+      "Path": "SFX\\SOUND\\HINT7_C3D48316.wem"
      },
      {
       "Id": "644582612",
@@ -332,6 +382,12 @@
       "Language": "SFX",
       "ShortName": "Footstep_Water_close\\270422__littlerobotsoundfactory__footstep-water-01.wav",
       "Path": "SFX\\Footstep_Water_close\\270422__littlerobotsoundfactory__footstep-water-01_9E69E797.wem"
+     },
+     {
+      "Id": "700856156",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT3.wav",
+      "Path": "SFX\\SOUND\\HINT3_D19B2A8D.wem"
      },
      {
       "Id": "707947815",
@@ -364,6 +420,12 @@
       "Path": "SFX\\Footstep_water\\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem"
      },
      {
+      "Id": "793180899",
+      "Language": "SFX",
+      "ShortName": "SOUND\\PICK UP OBJECT.wav",
+      "Path": "SFX\\SOUND\\PICK UP OBJECT_9E69E797.wem"
+     },
+     {
       "Id": "841071829",
       "Language": "SFX",
       "ShortName": "Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624.wav",
@@ -392,6 +454,12 @@
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
       "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_E3555519.wem"
+     },
+     {
+      "Id": "960984688",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT5.wav",
+      "Path": "SFX\\SOUND\\HINT5_B1BAF791.wem"
      },
      {
       "Id": "967197798",

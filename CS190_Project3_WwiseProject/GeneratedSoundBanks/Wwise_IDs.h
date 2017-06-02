@@ -16,6 +16,9 @@ namespace AK
         static const AkUniqueID ENV_BIRD_CHIRPING1 = 326967116U;
         static const AkUniqueID ENV_BIRD_CHIRPING2 = 326967119U;
         static const AkUniqueID FISH_SOUNDS = 2839789934U;
+        static const AkUniqueID HINTS = 3420417565U;
+        static const AkUniqueID PICK_UP_OBJECT = 3861027660U;
+        static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PLAYERWALK_CONCRETE = 1685368833U;
         static const AkUniqueID PLAYERWALK_DIRT = 3277136171U;
         static const AkUniqueID PLAYERWALK_GRAVEL = 1592501941U;

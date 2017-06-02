@@ -140,7 +140,7 @@ public class Movement : MonoBehaviour {
         
     }
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "concrete")
         {
