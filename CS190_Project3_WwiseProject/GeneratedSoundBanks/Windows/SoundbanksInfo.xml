@@ -1,41 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Andrew Smith\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX">
+		<SoundBank Id="3161908922" GUID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
-				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
-				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
-				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
-				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
-				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
-				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
-				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
-				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
-				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="9.473719" DurationMax="9.473719"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="24.056826" DurationMax="24.056826"/>
+				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" GUID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="0.696599" DurationMax="4.307302"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete" GUID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" DurationType="OneShot" DurationMin="0.443583" DurationMax="0.719070"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt" GUID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" DurationType="OneShot" DurationMin="0.452513" DurationMax="0.496844"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel" GUID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" DurationType="OneShot" DurationMin="0.386644" DurationMax="0.545941"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile" GUID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" DurationType="OneShot" DurationMin="0.393764" DurationMax="0.662993"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water" GUID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" DurationType="OneShot" DurationMin="0.755568" DurationMax="0.808242"/>
+				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close" GUID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" DurationType="OneShot" DurationMin="0.708345" DurationMax="0.804150"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood" GUID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" DurationType="OneShot" DurationMin="0.410010" DurationMax="0.447283"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" GUID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind" GUID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="4874044" Language="SFX">
+					<ShortName>Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06_9E69E797.wem</Path>
+				</File>
 				<File Id="47311494" Language="SFX">
 					<ShortName>Concrete\FS_Concrete_02.wav</ShortName>
 					<Path>SFX\Concrete\FS_Concrete_02_9E69E797.wem</Path>
+				</File>
+				<File Id="91700935" Language="SFX">
+					<ShortName>Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00_9E69E797.wem</Path>
 				</File>
 				<File Id="121101907" Language="SFX">
 					<ShortName>Tile\FS_Tile_04.wav</ShortName>
@@ -45,6 +55,10 @@
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
 					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_AC9A860D.wem</Path>
 				</File>
+				<File Id="123335313" Language="SFX">
+					<ShortName>Footstep_Water_close\270425__littlerobotsoundfactory__footstep-water-02.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270425__littlerobotsoundfactory__footstep-water-02_9E69E797.wem</Path>
+				</File>
 				<File Id="135036215" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
 					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_84DBBF64.wem</Path>
@@ -52,6 +66,10 @@
 				<File Id="135814206" Language="SFX">
 					<ShortName>Tile\FS_Tile_02.wav</ShortName>
 					<Path>SFX\Tile\FS_Tile_02_9E69E797.wem</Path>
+				</File>
+				<File Id="136628390" Language="SFX">
+					<ShortName>Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04_9E69E797.wem</Path>
 				</File>
 				<File Id="150379404" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
@@ -63,7 +81,7 @@
 				</File>
 				<File Id="271382503" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_02.wav</ShortName>
-					<Path>SFX\Dirt\FS_Dirt_02_9E69E797.wem</Path>
+					<Path>SFX\Dirt\FS_Dirt_02_39BC88EB.wem</Path>
 				</File>
 				<File Id="298817083" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_01.wav</ShortName>
@@ -73,13 +91,33 @@
 					<ShortName>Tile\FS_Tile_03.wav</ShortName>
 					<Path>SFX\Tile\FS_Tile_03_9E69E797.wem</Path>
 				</File>
+				<File Id="371769578" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_2.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_2_9E69E797.wem</Path>
+				</File>
+				<File Id="385396801" Language="SFX">
+					<ShortName>Footstep_Water_close\270429__littlerobotsoundfactory__footstep-water-03.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270429__littlerobotsoundfactory__footstep-water-03_9E69E797.wem</Path>
+				</File>
 				<File Id="391524583" Language="SFX">
 					<ShortName>Gravel\FS_Gravel_02.wav</ShortName>
 					<Path>SFX\Gravel\FS_Gravel_02_9E69E797.wem</Path>
 				</File>
 				<File Id="399336684" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_03.wav</ShortName>
-					<Path>SFX\Dirt\FS_Dirt_03_9E69E797.wem</Path>
+					<Path>SFX\Dirt\FS_Dirt_03_959D7F69.wem</Path>
+				</File>
+				<File Id="407670381" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_4.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_4_9E69E797.wem</Path>
+				</File>
+				<File Id="407730853" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_6.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_6_9E69E797.wem</Path>
+				</File>
+				<File Id="432973719" Language="SFX">
+					<ShortName>Footstep_Water_close\270426__littlerobotsoundfactory__footstep-water-07.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270426__littlerobotsoundfactory__footstep-water-07_9E69E797.wem</Path>
 				</File>
 				<File Id="472861571" Language="SFX">
 					<ShortName>Footstep_water\204034__duckduckpony__footsteps-water-light-007.wav</ShortName>
@@ -103,7 +141,7 @@
 				</File>
 				<File Id="532684422" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_04.wav</ShortName>
-					<Path>SFX\Dirt\FS_Dirt_04_9E69E797.wem</Path>
+					<Path>SFX\Dirt\FS_Dirt_04_70AFED12.wem</Path>
 				</File>
 				<File Id="561422158" Language="SFX">
 					<ShortName>Footstep_water\204032__duckduckpony__footsteps-water-light-005.wav</ShortName>
@@ -120,6 +158,14 @@
 				<File Id="671196794" Language="SFX">
 					<ShortName>Concrete\FS_Concrete_01.wav</ShortName>
 					<Path>SFX\Concrete\FS_Concrete_01_9E69E797.wem</Path>
+				</File>
+				<File Id="685700844" Language="SFX">
+					<ShortName>Footstep_Water_close\270422__littlerobotsoundfactory__footstep-water-01.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270422__littlerobotsoundfactory__footstep-water-01_9E69E797.wem</Path>
+				</File>
+				<File Id="707947815" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_1.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_1_9E69E797.wem</Path>
 				</File>
 				<File Id="715019499" Language="SFX">
 					<ShortName>Footstep_water\204017__duckduckpony__footsteps-water-light-004.wav</ShortName>
@@ -156,6 +202,14 @@
 				<File Id="943931174" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
 					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_E3555519.wem</Path>
+				</File>
+				<File Id="967197798" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_5.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_5_9E69E797.wem</Path>
+				</File>
+				<File Id="1004164203" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_3.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_3_9E69E797.wem</Path>
 				</File>
 				<File Id="1007205368" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>

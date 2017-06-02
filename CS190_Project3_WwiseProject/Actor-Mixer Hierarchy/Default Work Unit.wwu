@@ -587,6 +587,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FS_Dirt_02" ID="{5A32D81E-FE8A-4EB9-96E7-F26509F506AA}" ShortID="271382503">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.496844286560095"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Dirt\FS_Dirt_02.wav</AudioFile>
 										</AudioFileSource>
@@ -606,6 +609,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FS_Dirt_03" ID="{583A47B5-2316-49C1-AAFB-3CC03033ACF0}" ShortID="399336684">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.469369026473822"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Dirt\FS_Dirt_03.wav</AudioFile>
 										</AudioFileSource>
@@ -625,6 +631,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FS_Dirt_04" ID="{E87851B6-002C-4D66-AE81-BAA9E5423E6F}" ShortID="532684422">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="0.452513140247218"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Dirt\FS_Dirt_04.wav</AudioFile>
 										</AudioFileSource>
@@ -722,6 +731,177 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="FS_Concrete_04" ID="{30228CDC-3E6C-4559-8CEB-9B972EA30B38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footstep_Water_close" ID="{F694934C-415A-41F0-8D3D-DBEA4540EEE0}" ShortID="951996101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="270422__littlerobotsoundfactory__footstep-water-01" ID="{368F6134-61FB-4267-A765-7CDBB860A3D4}" ShortID="840912521" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270422__littlerobotsoundfactory__footstep-water-01" ID="{81FA6CDE-0481-43CE-841D-EE351672B198}" ShortID="685700844">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270422__littlerobotsoundfactory__footstep-water-01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270422__littlerobotsoundfactory__footstep-water-01" ID="{81FA6CDE-0481-43CE-841D-EE351672B198}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270423__littlerobotsoundfactory__footstep-water-00" ID="{CA4C883F-1CEB-417C-B003-E7BBEB17A6B5}" ShortID="381308175" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270423__littlerobotsoundfactory__footstep-water-00" ID="{13AFC870-910E-4CBC-A59F-74E92BA42FED}" ShortID="91700935">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270423__littlerobotsoundfactory__footstep-water-00" ID="{13AFC870-910E-4CBC-A59F-74E92BA42FED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270424__littlerobotsoundfactory__footstep-water-06" ID="{E338C5A1-213B-48B8-AA98-7F6AAB060217}" ShortID="95560284" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270424__littlerobotsoundfactory__footstep-water-06" ID="{84D86E1E-0F54-4753-82BB-AE413ED79D3D}" ShortID="4874044">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270424__littlerobotsoundfactory__footstep-water-06" ID="{84D86E1E-0F54-4753-82BB-AE413ED79D3D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270425__littlerobotsoundfactory__footstep-water-02" ID="{B4559E78-763C-42DB-BEED-9E59B18D04EF}" ShortID="625144725" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270425__littlerobotsoundfactory__footstep-water-02" ID="{4528A531-965D-4B27-B797-2FDD27FB7C34}" ShortID="123335313">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270425__littlerobotsoundfactory__footstep-water-02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270425__littlerobotsoundfactory__footstep-water-02" ID="{4528A531-965D-4B27-B797-2FDD27FB7C34}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270426__littlerobotsoundfactory__footstep-water-07" ID="{80C78AA4-6EA0-41AB-9FF7-1EDFD5535C46}" ShortID="41830919" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270426__littlerobotsoundfactory__footstep-water-07" ID="{7E553BDC-0486-4BBC-B159-BE12E5E22941}" ShortID="432973719">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270426__littlerobotsoundfactory__footstep-water-07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270426__littlerobotsoundfactory__footstep-water-07" ID="{7E553BDC-0486-4BBC-B159-BE12E5E22941}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270427__littlerobotsoundfactory__footstep-water-04" ID="{63DE9EEB-672A-421C-A485-7BFE9D79FF3F}" ShortID="403533638" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270427__littlerobotsoundfactory__footstep-water-04" ID="{A175A492-113D-484B-A8E0-861E583C72EB}" ShortID="136628390">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270427__littlerobotsoundfactory__footstep-water-04" ID="{A175A492-113D-484B-A8E0-861E583C72EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270428__littlerobotsoundfactory__footstep-water-05" ID="{28FA530B-7FE8-45E7-9AC6-252977B102AD}" ShortID="532392568" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270428__littlerobotsoundfactory__footstep-water-05" ID="{C9AFD7F6-E6AC-473A-9668-39B3C9C83D5B}" ShortID="514472749">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270428__littlerobotsoundfactory__footstep-water-05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270428__littlerobotsoundfactory__footstep-water-05" ID="{C9AFD7F6-E6AC-473A-9668-39B3C9C83D5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="270429__littlerobotsoundfactory__footstep-water-03" ID="{55E63EF8-2E3B-4352-9337-DAA377023445}" ShortID="293183159" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="270429__littlerobotsoundfactory__footstep-water-03" ID="{8C701A56-99FC-4B0E-9921-52F64D0F55AC}" ShortID="385396801">
+											<Language>SFX</Language>
+											<AudioFile>Footstep_Water_close\270429__littlerobotsoundfactory__footstep-water-03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="270429__littlerobotsoundfactory__footstep-water-03" ID="{8C701A56-99FC-4B0E-9921-52F64D0F55AC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1154,6 +1334,11 @@
 				<Sound Name="wind" ID="{A4B6D2C9-04C7-486F-A982-6576C8819A56}" ShortID="523701080" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1204,9 +1389,18 @@
 						<RandomSequenceContainer Name="Fish" ID="{A2B575ED-3002-4B3E-A291-FDFA1EB27565}" ShortID="702101132">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="fish_atten" ID="{3E5E2076-046F-4A6E-8F06-65128ED7A716}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
 								</Reference>

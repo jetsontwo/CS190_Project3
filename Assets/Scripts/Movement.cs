@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour {
     private Vector3 LastPosition;
 
     private float WalkTimer = 0.0f;
-    private float speedfactor = 2f;
+    private float speedfactor = 1.5f;
     private float FootStepInterval
     {
         get { return (speed/(speed+5)) / speedfactor; } //second speed can be adjusted for running
@@ -90,7 +90,7 @@ public class Movement : MonoBehaviour {
 
         MoveVector = new Vector3(horiz, 0, vert);
         //rb.MovePosition(rb.position + MoveVector * (speed/5f) * Time.fixedDeltaTime);
-        //Debug.Log(playerWalkingState);
+        Debug.Log(playerWalkingState);
 
         if (IsWalking)
         {
@@ -107,7 +107,7 @@ public class Movement : MonoBehaviour {
                             AkSoundEngine.PostEvent("PlayerWalk_gravel", gameObject);     
                             break;
                         case walkingState.water:
-                            AkSoundEngine.PostEvent("PlayerWalk_water", gameObject);     
+                            AkSoundEngine.PostEvent("PlayerWalk_water_close", gameObject);     
                             break;
                         case walkingState.dirt:
                             AkSoundEngine.PostEvent("PlayerWalk_dirt", gameObject);     
@@ -140,7 +140,7 @@ public class Movement : MonoBehaviour {
         
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "concrete")
         {
@@ -156,15 +156,22 @@ public class Movement : MonoBehaviour {
         {
             playerWalkingState = walkingState.water;
             on_Ground = true;
+            speedfactor = 1f;
+            speed = 20;
         }
         if (other.gameObject.tag == "dirt")
         {
             playerWalkingState = walkingState.dirt;
             on_Ground = true;
+
+            speedfactor = 1.5f;
+            speed = 50;
         }
         if (other.gameObject.tag == "Ground")
         {
             playerWalkingState = walkingState.Ground;
+            speedfactor = 1.5f;
+            speed = 50;
         }
     }
 
@@ -180,6 +187,8 @@ public class Movement : MonoBehaviour {
         {
             playerWalkingState = walkingState.Ground;
             on_Ground = false;
+            speedfactor = 1.5f;
+            speed = 50;
         }
         if (other.gameObject.tag == "dirt")
         {
