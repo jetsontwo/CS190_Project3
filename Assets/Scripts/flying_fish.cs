@@ -11,11 +11,15 @@ public class flying_fish : MonoBehaviour {
         instance = this;
     }
     
+    void OnEnable()
+    {
+        instance.StartCoroutine("fish_event");
+    }
 
     IEnumerator fish_event()
     {
         Debug.Log("flying!!!");
-        yield return new WaitForSeconds(Random.Range(0.5f, 5f));
+        yield return new WaitForSeconds(Random.Range(0.5f, 3f));
         instance.GetComponent<Animator>().Play("flying_fish");
     }
 

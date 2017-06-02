@@ -19,8 +19,10 @@ public class event_trigger : MonoBehaviour {
     // Use this for initialization
     void Start () {
         myCamera = Camera.main;
+        playThis();
     }
-
+    /*
+    //collider way:
     void OnTriggerEnter(Collider other)
     {
         
@@ -48,9 +50,11 @@ public class event_trigger : MonoBehaviour {
 
         }
     }
+    */
     IEnumerator Finish()
     {
-        yield return new WaitForSeconds(10f);
+        Debug.Log("Finishing!!");
+        yield return new WaitForSeconds(14f);
         myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = true;
         myplayer.gameObject.GetComponent<Movement>().enabled = true;
         
@@ -62,10 +66,39 @@ public class event_trigger : MonoBehaviour {
 
         mycutscene.EndCutscene();
     }
+
     IEnumerator fish_event()
     {
         Debug.Log("flying!");
         yield return new WaitForSeconds(3f);
         flying_fish.Play();
+    }
+
+    void playThis()
+    {
+        player_old_position = myplayer.transform.position;
+        camera_old_position = myCamera.transform.localPosition;
+        player_old_rotation = myplayer.transform.rotation;
+        camera_old_rotation = myCamera.transform.localRotation;
+
+        if (mycutscene.playingCutscene == false)
+        {
+            mycutscene.ActivateCutscene();
+            Debug.Log("start camera!");
+            //Start event:
+            try
+            {
+                StartCoroutine("fish_event");
+            }
+            catch
+            {
+
+            }
+
+            StartCoroutine("Finish");
+            myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = false;
+            myplayer.gameObject.GetComponent<Movement>().enabled = false;
+
+        }
     }
 }
