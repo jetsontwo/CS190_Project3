@@ -76,6 +76,8 @@ public class Movement : MonoBehaviour {
             rb.velocity += transform.forward * vert * Time.deltaTime * speed;
         else if (horiz != 0 && rb.velocity.magnitude < max_vel)
             rb.velocity += transform.right * horiz * Time.deltaTime * speed;
+        else if (vert == 0 && horiz == 0 && rb.velocity.magnitude != 0)
+            rb.velocity -= new Vector3(rb.velocity.x / 2, 0, rb.velocity.z/2);
 
 
 
@@ -89,8 +91,6 @@ public class Movement : MonoBehaviour {
         
 
         MoveVector = new Vector3(horiz, 0, vert);
-        //rb.MovePosition(rb.position + MoveVector * (speed/5f) * Time.fixedDeltaTime);
-        Debug.Log(playerWalkingState);
 
         if (IsWalking)
         {
@@ -120,7 +120,7 @@ public class Movement : MonoBehaviour {
                             break;
                     }
 
-                    WalkTimer += Time.fixedDeltaTime;
+                    WalkTimer += Time.deltaTime;
                 }
             }
             else if (WalkTimer >= FootStepInterval)
@@ -129,7 +129,7 @@ public class Movement : MonoBehaviour {
             }
             else
             {
-                WalkTimer += Time.fixedDeltaTime;
+                WalkTimer += Time.deltaTime;
             }
             LastPosition = Position;
         }
