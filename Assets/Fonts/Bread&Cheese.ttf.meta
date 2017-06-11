@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 304fd01b7e2a7584fad204a89b2ce307
+timeCreated: 1497097034
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bread&Cheese
+  fontNames:
+  - Bread&Cheese
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
