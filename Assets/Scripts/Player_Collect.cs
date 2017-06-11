@@ -39,7 +39,7 @@ public class Player_Collect : MonoBehaviour {
         object_held.transform.parent = null;
 
         RaycastHit rh;
-        Physics.Raycast(new Ray(transform.position, transform.forward), out rh, 1);
+        Physics.Raycast(new Ray(transform.position, transform.forward), out rh, 1.5f);
 
         if (rh.collider)
         {
