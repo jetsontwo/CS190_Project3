@@ -27,6 +27,8 @@
 				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" GUID="{38526344-2231-45E0-A46F-5840875A23EA}" MaxAttenuation="70.000000" DurationType="Infinite"/>
 				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object" GUID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}" DurationType="OneShot" DurationMin="10.490181" DurationMax="10.490181"/>
 				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup" GUID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" DurationType="OneShot" DurationMin="1.387710" DurationMax="1.387710"/>
+				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping" GUID="{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}" DurationType="OneShot" DurationMin="0.338542" DurationMax="0.402596"/>
+				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing" GUID="{C7FE74F6-B8EB-4CE7-9208-802E7F14E48A}" DurationType="OneShot" DurationMin="0.445449" DurationMax="0.629961"/>
 				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete" GUID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" DurationType="OneShot" DurationMin="0.443583" DurationMax="0.719070"/>
 				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt" GUID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" DurationType="OneShot" DurationMin="0.452513" DurationMax="0.496844"/>
 				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel" GUID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" DurationType="OneShot" DurationMin="0.386644" DurationMax="0.545941"/>
@@ -40,7 +42,7 @@
 			<IncludedMemoryFiles>
 				<File Id="4729481" Language="SFX">
 					<ShortName>SOUND\HINT1.wav</ShortName>
-					<Path>SFX\SOUND\HINT1_327F52AF.wem</Path>
+					<Path>SFX\SOUND\HINT1_7A663DB3.wem</Path>
 				</File>
 				<File Id="4874044" Language="SFX">
 					<ShortName>Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06.wav</ShortName>
@@ -82,9 +84,17 @@
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
 					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_5A0A9621.wem</Path>
 				</File>
+				<File Id="220189828" Language="SFX">
+					<ShortName>390769__d00121058__fx-022-breath-landing.wav</ShortName>
+					<Path>SFX\390769__d00121058__fx-022-breath-landing_9E69E797.wem</Path>
+				</File>
 				<File Id="242053235" Language="SFX">
 					<ShortName>Concrete\FS_Concrete_03.wav</ShortName>
 					<Path>SFX\Concrete\FS_Concrete_03_9E69E797.wem</Path>
+				</File>
+				<File Id="256959046" Language="SFX">
+					<ShortName>390768__d00121058__fx-021-breath-jump.wav</ShortName>
+					<Path>SFX\390768__d00121058__fx-021-breath-jump_9E69E797.wem</Path>
 				</File>
 				<File Id="271382503" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_02.wav</ShortName>
@@ -96,7 +106,7 @@
 				</File>
 				<File Id="311420785" Language="SFX">
 					<ShortName>SOUND\HINT4.wav</ShortName>
-					<Path>SFX\SOUND\HINT4_C8E33E00.wem</Path>
+					<Path>SFX\SOUND\HINT4_F69A650A.wem</Path>
 				</File>
 				<File Id="333675292" Language="SFX">
 					<ShortName>Tile\FS_Tile_03.wav</ShortName>
@@ -144,7 +154,7 @@
 				</File>
 				<File Id="498806148" Language="SFX">
 					<ShortName>Birds\339326__inspectorj__bird-whistling-a.wav</ShortName>
-					<Path>SFX\Birds\339326__inspectorj__bird-whistling-a_E18833A3.wem</Path>
+					<Path>SFX\Birds\339326__inspectorj__bird-whistling-a_9FE027F0.wem</Path>
 				</File>
 				<File Id="502497633" Language="SFX">
 					<ShortName>Gravel\FS_Gravel_01.wav</ShortName>
@@ -168,7 +178,7 @@
 				</File>
 				<File Id="641280759" Language="SFX">
 					<ShortName>SOUND\HINT7.wav</ShortName>
-					<Path>SFX\SOUND\HINT7_C3D48316.wem</Path>
+					<Path>SFX\SOUND\HINT7_5004D1BF.wem</Path>
 				</File>
 				<File Id="644582612" Language="SFX">
 					<ShortName>Footstep_water\204035__duckduckpony__footsteps-water-light-008.wav</ShortName>
@@ -184,7 +194,7 @@
 				</File>
 				<File Id="700856156" Language="SFX">
 					<ShortName>SOUND\HINT3.wav</ShortName>
-					<Path>SFX\SOUND\HINT3_D19B2A8D.wem</Path>
+					<Path>SFX\SOUND\HINT3_28A22DEF.wem</Path>
 				</File>
 				<File Id="707947815" Language="SFX">
 					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_1.wav</ShortName>
@@ -232,7 +242,7 @@
 				</File>
 				<File Id="960984688" Language="SFX">
 					<ShortName>SOUND\HINT5.wav</ShortName>
-					<Path>SFX\SOUND\HINT5_B1BAF791.wem</Path>
+					<Path>SFX\SOUND\HINT5_98D70A60.wem</Path>
 				</File>
 				<File Id="967197798" Language="SFX">
 					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_5.wav</ShortName>

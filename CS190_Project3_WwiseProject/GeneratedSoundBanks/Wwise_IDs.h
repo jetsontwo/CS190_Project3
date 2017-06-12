@@ -19,6 +19,8 @@ namespace AK
         static const AkUniqueID HINTS = 3420417565U;
         static const AkUniqueID PICK_UP_OBJECT = 3861027660U;
         static const AkUniqueID PICKUP = 3978245845U;
+        static const AkUniqueID PLAYER_JUMPING = 1506921427U;
+        static const AkUniqueID PLAYER_LANDING = 1282282006U;
         static const AkUniqueID PLAYERWALK_CONCRETE = 1685368833U;
         static const AkUniqueID PLAYERWALK_DIRT = 3277136171U;
         static const AkUniqueID PLAYERWALK_GRAVEL = 1592501941U;

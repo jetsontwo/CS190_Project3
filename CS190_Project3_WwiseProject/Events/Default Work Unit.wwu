@@ -171,6 +171,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_jumping" ID="{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3F71F7DD-F3B6-4AA6-B367-9FC9F2F25782}" ShortID="426065372" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{911D4E63-DE11-415E-A514-FFD2A67832DE}" Global="false">
+									<ObjectRef Name="390768__d00121058__fx-021-breath-jump" ID="{E3A38144-41A7-492B-88D9-BF1F5F40C4D9}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_landing" ID="{C7FE74F6-B8EB-4CE7-9208-802E7F14E48A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8C4584D2-322E-42D7-9FC4-11A459278CAA}" ShortID="1022753574" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{06C99946-6D64-48A2-ABBC-B94D7B504893}" Global="false">
+									<ObjectRef Name="390769__d00121058__fx-022-breath-landing" ID="{BE769566-7C44-4242-8DA3-CA7151257188}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

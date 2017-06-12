@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour {
     private float vert, horiz;
     public float max_vel, speed, decelleration, jump_power, ground_search_dist;
     private bool on_Ground = true;
+    public static bool allow_move = true;
 
     private Vector3 MoveVector = Vector3.zero;
     public bool IsWalking
@@ -56,7 +57,7 @@ public class Movement : MonoBehaviour {
             Debug.DrawRay(transform.position, -transform.up * ground_search_dist);
             if (Physics.Raycast(transform.position, -transform.up * ground_search_dist, LayerMask.NameToLayer("Ground")) && rb.velocity.y == 0.00000)
             {
-                //Debug.Log("Change!");
+                Debug.Log("Change!");
                 on_Ground = true;
             }
             else
@@ -67,29 +68,31 @@ public class Movement : MonoBehaviour {
 
 
 
-        if (on_Ground)  //if in the air, just fly, cannot move
+        if (allow_move)  //if in the air, just fly, cannot move
         {
             vert = Input.GetAxisRaw("Vertical");
             horiz = Input.GetAxisRaw("Horizontal");
-        }
 
-        if (horiz != 0 && vert != 0 && rb.velocity.magnitude < max_vel)
-        {
-            rb.velocity += (transform.forward * vert) * Time.deltaTime * speed;
-            rb.velocity += transform.right * horiz * Time.deltaTime * speed;
-        }
-        else if (vert != 0 && rb.velocity.magnitude < max_vel)
-            rb.velocity += transform.forward * vert * Time.deltaTime * speed;
-        else if (horiz != 0 && rb.velocity.magnitude < max_vel)
-            rb.velocity += transform.right * horiz * Time.deltaTime * speed;
-        else if (vert == 0 && horiz == 0 && rb.velocity.magnitude != 0)
-            rb.velocity -= new Vector3(rb.velocity.x / 2, 0, rb.velocity.z/2);
 
+            if (horiz != 0 && vert != 0 && rb.velocity.magnitude < max_vel)
+            {
+                rb.velocity += (transform.forward * vert) * Time.deltaTime * speed;
+                rb.velocity += transform.right * horiz * Time.deltaTime * speed;
+            }
+            else if (vert != 0 && rb.velocity.magnitude < max_vel)
+                rb.velocity += transform.forward * vert * Time.deltaTime * speed;
+            else if (horiz != 0 && rb.velocity.magnitude < max_vel)
+                rb.velocity += transform.right * horiz * Time.deltaTime * speed;
+            else if (vert == 0 && horiz == 0 && rb.velocity.magnitude != 0)
+                rb.velocity -= new Vector3(rb.velocity.x / 2, 0, rb.velocity.z / 2);
+
+        }
 
         if(on_Ground && Input.GetKeyDown(KeyCode.Space))
         {
+            allow_move = false;
             //todo: jump sound here
-
+            AkSoundEngine.PostEvent("Player_jumping", gameObject);
             on_Ground = false;
             rb.AddForce(new Vector3(0, jump_power, 0));
             //Debug.Log("in the air!");
@@ -247,6 +250,16 @@ public class Movement : MonoBehaviour {
 
     }
 
+    IEnumerator delay()
+    {
+        yield return new WaitForSeconds(0.1f);
+        AkSoundEngine.PostEvent("Player_landing", gameObject);
+        yield return new WaitForSeconds(0.5f);
+        Debug.Log("canmovenow");
+        allow_move = true;
+        on_Ground = true;
+    }
+
     //need this to collide with terrain collider
     void OnCollisionEnter(Collision collision)
     {
@@ -255,14 +268,19 @@ public class Movement : MonoBehaviour {
             Debug.DrawRay(contact.point, contact.normal, Color.white);
         }
 
-        if (collision.relativeVelocity.magnitude > 2)
+        //if (collision.relativeVelocity.magnitude > 1)
+        //{
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "Terrain")
         {
-            Debug.Log(collision.gameObject.name);
-            if (collision.gameObject.name == "Terrain")
+            if (!allow_move)
             {
-                on_Ground = true;
+                    
+                StartCoroutine(delay());
+                    
             }
         }
+        
     }
 
 }
