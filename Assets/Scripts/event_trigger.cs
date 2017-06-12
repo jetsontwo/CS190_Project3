@@ -88,7 +88,7 @@ public class event_trigger : MonoBehaviour {
             //Start event:
             try
             {
-                StartCoroutine("fish_event");
+                //StartCoroutine("fish_event"); //didnt work, animation start after enable game object instead
             }
             catch
             {

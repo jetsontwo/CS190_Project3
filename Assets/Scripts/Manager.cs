@@ -56,6 +56,8 @@ public class Manager : MonoBehaviour
 
     public void Restart()
     {
+        isPaused = false;
+        Time.timeScale = 1f; //resume game
         SceneManager.LoadScene(0);
     }
 }
