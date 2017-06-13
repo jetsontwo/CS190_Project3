@@ -29,7 +29,9 @@ public class Post_Controller : MonoBehaviour {
         last_event.collectable_count += 1;
 
         //start cutscene:
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.5f));
+        light_transition.instance.GetComponent<Animator>().Play("transition");
+
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1f));
         return true;
     }
 }
