@@ -43,6 +43,7 @@ public class Manager : MonoBehaviour
         UIPanel.gameObject.SetActive(true); //turn on the pause menu
         Time.timeScale = 0f; //pause the game
         Movement.allow_move = false; //disable player movement
+        Cursor.lockState = CursorLockMode.None;
         myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = false; //disable camera tracker
     }
 
@@ -52,6 +53,7 @@ public class Manager : MonoBehaviour
         UIPanel.gameObject.SetActive(false); //turn off pause menu
         Time.timeScale = 1f; //resume game
         Movement.allow_move = true; //allow player movement
+        Cursor.lockState = CursorLockMode.Locked;
         myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = true; //allow camera tracker
     }
 

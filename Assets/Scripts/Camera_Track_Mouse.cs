@@ -14,8 +14,6 @@ public class Camera_Track_Mouse : MonoBehaviour {
         cam = Camera.main.gameObject;
     }
 	void Update () {
-        if(!stop_rotate)
-        {
             transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X") * rotate_speed, 0));
 
             //print(cam.transform.eulerAngles);
@@ -35,12 +33,5 @@ public class Camera_Track_Mouse : MonoBehaviour {
             //}
             cam.transform.Rotate(new Vector3(-Input.GetAxis("Mouse Y") * rotate_speed, 0, 0));
 
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.lockState = Cursor.lockState == CursorLockMode.Locked ? CursorLockMode.None : CursorLockMode.Locked;
-            stop_rotate = !stop_rotate;
-        }
     }
 }
