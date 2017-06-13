@@ -25,6 +25,8 @@ public class last_event : MonoBehaviour {
         //end game scene here:
         Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(2);
+        AkSoundEngine.PostEvent("stopAll",gameObject);
+        AkSoundEngine.PostEvent("endingMusic", gameObject);
     }
 
     // Update is called once per frame

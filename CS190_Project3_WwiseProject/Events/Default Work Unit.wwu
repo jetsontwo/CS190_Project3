@@ -325,6 +325,29 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="stopAll" ID="{CF137AAA-18E0-40B7-9100-ED5AB81697D2}">
+					<ChildrenList>
+						<Action Name="Stop All Except" ID="{36C78094-5957-4D3A-8E4B-DDD33DB0A74D}" ShortID="312494154" Type="Stop" Scope="AllExcept" Global="true"/>
+						<Action Name="Post Event" ID="{38FEB384-9C46-48D3-9156-48FF4995365B}" ShortID="14947188" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{26D20061-0632-4B4C-BB5C-B8F7C81D5F9D}" Global="false">
+									<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="endingMusic" ID="{0A891EAA-1158-464F-8497-A6CC359F4CDF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DF63146B-8BC0-495A-ADD2-5AA4A78173A7}" ShortID="778550747" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DF6D0F56-46A3-4A3A-95FD-3B328B72DF9F}" Global="false">
+									<ObjectRef Name="ending music" ID="{7B24889F-497A-49EB-9D08-B582E56E60E5}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
