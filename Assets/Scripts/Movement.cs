@@ -155,7 +155,7 @@ public class Movement : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("enter!");
+        //Debug.Log("enter!");
         if (other.gameObject.tag == "concrete")
         {
             playerWalkingState = walkingState.concrete;
@@ -255,7 +255,7 @@ public class Movement : MonoBehaviour {
         //yield return new WaitForSeconds(0.1f);
         AkSoundEngine.PostEvent("Player_landing", gameObject);
         yield return new WaitForSeconds(0f);
-        Debug.Log("canmovenow");
+        //Debug.Log("canmovenow");
         allow_move = true;
         on_Ground = true;
         
@@ -264,14 +264,14 @@ public class Movement : MonoBehaviour {
     //need this to collide with terrain collider
     void OnCollisionEnter(Collision collision)
     {
-        foreach (ContactPoint contact in collision.contacts)
-        {
-            Debug.DrawRay(contact.point, contact.normal, Color.white);
-        }
+        //foreach (ContactPoint contact in collision.contacts)
+        //{
+        //    Debug.DrawRay(contact.point, contact.normal, Color.white);
+        //}
 
         //if (collision.relativeVelocity.magnitude > 1)
         //{
-        Debug.Log(collision.gameObject.name);
+        //Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "Terrain" || collision.gameObject.tag == "Post")
         {
             if (!allow_move)

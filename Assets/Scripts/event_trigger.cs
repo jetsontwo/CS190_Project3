@@ -53,7 +53,7 @@ public class event_trigger : MonoBehaviour {
     */
     IEnumerator Finish(float time)
     {
-        Debug.Log("Finishing!!");
+        //Debug.Log("Finishing!!");
         yield return new WaitForSeconds(time);
 
         myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = true;
@@ -85,7 +85,7 @@ public class event_trigger : MonoBehaviour {
         if (mycutscene.playingCutscene == false)
         {
             mycutscene.ActivateCutscene();
-            Debug.Log("start camera!");
+            //Debug.Log("start camera!");
             //Start event:
             try
             {

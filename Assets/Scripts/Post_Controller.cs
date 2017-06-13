@@ -24,7 +24,7 @@ public class Post_Controller : MonoBehaviour {
         item_held.transform.localPosition = new Vector3(0, 3f, 0);
 
         //stop the hint sound:
-        Debug.Log("placed!");
+        //Debug.Log("placed!");
         AkSoundEngine.PostEvent(item.GetComponent<Ambient_Sounds>().stopthis_sound, item.gameObject);
         last_event.collectable_count += 1;
 
