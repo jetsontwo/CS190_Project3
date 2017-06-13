@@ -23,6 +23,7 @@ public class last_event : MonoBehaviour {
 
         yield return new WaitForSeconds(24f);
         //end game scene here:
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(2);
     }
 
