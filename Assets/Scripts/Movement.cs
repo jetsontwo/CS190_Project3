@@ -252,12 +252,13 @@ public class Movement : MonoBehaviour {
 
     IEnumerator delay()
     {
-        yield return new WaitForSeconds(0.1f);
+        //yield return new WaitForSeconds(0.1f);
         AkSoundEngine.PostEvent("Player_landing", gameObject);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0f);
         Debug.Log("canmovenow");
         allow_move = true;
         on_Ground = true;
+        
     }
 
     //need this to collide with terrain collider
