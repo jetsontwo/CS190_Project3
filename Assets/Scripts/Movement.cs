@@ -272,7 +272,7 @@ public class Movement : MonoBehaviour {
         //if (collision.relativeVelocity.magnitude > 1)
         //{
         Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "Terrain")
+        if (collision.gameObject.name == "Terrain" || collision.gameObject.tag == "Post")
         {
             if (!allow_move)
             {

@@ -14,6 +14,8 @@ public class Manager : MonoBehaviour
 
     bool isPaused; //Used to determine paused state
 
+    public GameObject myplayer; //Player prefab
+
     void Start()
     {
         UIPanel.gameObject.SetActive(false); //make sure our pause menu is disabled when scene starts
@@ -40,6 +42,8 @@ public class Manager : MonoBehaviour
         isPaused = true;
         UIPanel.gameObject.SetActive(true); //turn on the pause menu
         Time.timeScale = 0f; //pause the game
+        Movement.allow_move = false; //disable player movement
+        myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = false; //disable camera tracker
     }
 
     public void UnPause()
@@ -47,6 +51,8 @@ public class Manager : MonoBehaviour
         isPaused = false;
         UIPanel.gameObject.SetActive(false); //turn off pause menu
         Time.timeScale = 1f; //resume game
+        Movement.allow_move = true; //allow player movement
+        myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = true; //allow camera tracker
     }
 
     public void QuitGame()

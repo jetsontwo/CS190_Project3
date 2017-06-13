@@ -19,7 +19,7 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp3</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>50</XPos>
@@ -66,7 +66,7 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp3</SegmentShape>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>30</XPos>
@@ -190,7 +190,7 @@
 				</Attenuation>
 				<Attenuation Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" ShortID="402612760">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="70"/>
+						<Property Name="RadiusMax" Type="Real64" Value="80"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -204,10 +204,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp1</SegmentShape>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>70</XPos>
+											<XPos>80</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -251,7 +251,6 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>30</XPos>

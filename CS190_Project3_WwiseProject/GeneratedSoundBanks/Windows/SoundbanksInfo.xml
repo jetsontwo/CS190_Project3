@@ -25,17 +25,17 @@
 				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="7.473719" DurationMax="7.473719"/>
 				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.234389" DurationMax="5.234389"/>
 				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" GUID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="0.696599" DurationMax="4.307302"/>
-				<Event Id="1792468376" Name="hint1_play" ObjectPath="\Events\Default Work Unit\hint1_play" GUID="{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="1792468376" Name="hint1_play" ObjectPath="\Events\Default Work Unit\hint1_play" GUID="{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="4123339242" Name="hint1_stop" ObjectPath="\Events\Default Work Unit\hint1_stop" GUID="{353A2D53-1693-4376-9100-694024371FFB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="656448445" Name="hint2_play" ObjectPath="\Events\Default Work Unit\hint2_play" GUID="{DE607B8C-E09A-4E2C-BF39-26D764E7B241}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="656448445" Name="hint2_play" ObjectPath="\Events\Default Work Unit\hint2_play" GUID="{DE607B8C-E09A-4E2C-BF39-26D764E7B241}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="2883764011" Name="hint2_stop" ObjectPath="\Events\Default Work Unit\hint2_stop" GUID="{F6B9D994-F1BD-4E8E-957E-9B45D4761F78}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="209538446" Name="hint3_play" ObjectPath="\Events\Default Work Unit\hint3_play" GUID="{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="209538446" Name="hint3_play" ObjectPath="\Events\Default Work Unit\hint3_play" GUID="{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="1211077744" Name="hint3_stop" ObjectPath="\Events\Default Work Unit\hint3_stop" GUID="{E4A5E59A-25DF-42D8-8040-0FEE74289109}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="889616867" Name="hint4_play" ObjectPath="\Events\Default Work Unit\hint4_play" GUID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="889616867" Name="hint4_play" ObjectPath="\Events\Default Work Unit\hint4_play" GUID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="3246161321" Name="hint4_stop" ObjectPath="\Events\Default Work Unit\hint4_stop" GUID="{6E21F53B-0588-4858-9787-346BDDD44946}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4068216044" Name="hint5_play" ObjectPath="\Events\Default Work Unit\hint5_play" GUID="{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="4068216044" Name="hint5_play" ObjectPath="\Events\Default Work Unit\hint5_play" GUID="{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="1743033334" Name="hint5_stop" ObjectPath="\Events\Default Work Unit\hint5_stop" GUID="{30F00752-05C7-4C9B-88C6-9A1B26CB2D33}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" GUID="{38526344-2231-45E0-A46F-5840875A23EA}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" GUID="{38526344-2231-45E0-A46F-5840875A23EA}" MaxAttenuation="80.000000" DurationType="Infinite"/>
 				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object" GUID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}" DurationType="OneShot" DurationMin="10.490181" DurationMax="10.490181"/>
 				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup" GUID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" DurationType="OneShot" DurationMin="0.510224" DurationMax="0.510224"/>
 				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping" GUID="{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}" DurationType="OneShot" DurationMin="0.338542" DurationMax="0.402596"/>
@@ -202,7 +202,7 @@
 				</File>
 				<File Id="614457036" Language="SFX">
 					<ShortName>216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav</ShortName>
-					<Path>SFX\216629__wiesenwiesel__picking-up-small-box-with-items-inside_A9DFD812.wem</Path>
+					<Path>SFX\216629__wiesenwiesel__picking-up-small-box-with-items-inside_76494563.wem</Path>
 				</File>
 				<File Id="619348028" Language="SFX">
 					<ShortName>hint music.wav</ShortName>

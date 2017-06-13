@@ -5,10 +5,13 @@ using UnityEngine;
 public class Ambient_Sounds : MonoBehaviour {
 
     public string[] soundEvent;
+    
+    public string stopthis_sound;
 
 	// Use this for initialization
 	void Start () {
         StartCoroutine(StartDelay());
+
     }
 
     IEnumerator StartDelay()
@@ -24,7 +27,7 @@ public class Ambient_Sounds : MonoBehaviour {
         {     
             while (true)
             {
-                yield return new WaitForSeconds(Random.Range(2f, 4f));
+                yield return new WaitForSeconds(Random.Range(1f, 3f));
                 AkSoundEngine.PostEvent(soundEvent[Random.Range(0, soundEvent.Length)], gameObject);
             }
         }

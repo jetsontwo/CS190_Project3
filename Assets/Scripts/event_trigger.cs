@@ -51,10 +51,11 @@ public class event_trigger : MonoBehaviour {
         }
     }
     */
-    IEnumerator Finish()
+    IEnumerator Finish(float time)
     {
         Debug.Log("Finishing!!");
-        yield return new WaitForSeconds(14f);
+        yield return new WaitForSeconds(time);
+
         myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = true;
         myplayer.gameObject.GetComponent<Movement>().enabled = true;
         
@@ -95,7 +96,15 @@ public class event_trigger : MonoBehaviour {
 
             }
 
-            StartCoroutine("Finish");
+            if (last_event.status)
+            {
+                StartCoroutine(Finish(30f));
+            }
+            else
+            {
+                StartCoroutine(Finish(16f));
+            }
+
             myplayer.gameObject.GetComponent<Camera_Track_Mouse>().enabled = false;
             myplayer.gameObject.GetComponent<Movement>().enabled = false;
 

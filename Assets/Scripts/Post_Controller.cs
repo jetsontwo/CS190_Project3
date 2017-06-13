@@ -22,7 +22,14 @@ public class Post_Controller : MonoBehaviour {
         item_held = item;
         item_held.transform.parent = transform;
         item_held.transform.localPosition = new Vector3(0, 3f, 0);
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.25f));
+
+        //stop the hint sound:
+        Debug.Log("placed!");
+        AkSoundEngine.PostEvent(item.GetComponent<Ambient_Sounds>().stopthis_sound, item.gameObject);
+        last_event.collectable_count += 1;
+
+        //start cutscene:
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.5f));
         return true;
     }
 }

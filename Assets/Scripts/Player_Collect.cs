@@ -29,7 +29,7 @@ public class Player_Collect : MonoBehaviour {
         object_held.GetComponent<Box_Anim>().StopAllCoroutines();
         object_held.GetComponent<ParticleSystem>().Stop();
         object_held.transform.parent = gameObject.transform;
-        object_held.transform.localPosition = new Vector3(0.75f, 0, 0.75f);
+        object_held.transform.localPosition = new Vector3(0.75f, 0.4f, 0.75f);
         object_held.transform.localRotation = Quaternion.identity;
     }
 

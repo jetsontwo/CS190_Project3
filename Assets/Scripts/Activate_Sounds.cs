@@ -9,7 +9,7 @@ public class Activate_Sounds : MonoBehaviour {
 
     public IEnumerator activate(float time_between_var = 0f)
     {
-        if(time_between <= time_between_var)
+        if(time_between_var >= time_between)
         {
             time_between = time_between_var;
         }
