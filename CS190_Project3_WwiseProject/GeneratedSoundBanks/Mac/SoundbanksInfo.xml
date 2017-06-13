@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX">
+		<SoundBank Id="3161908922" GUID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress"/>
-				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
-				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
-				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" MaxAttenuation="20.000000"/>
-				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" MaxAttenuation="70.000000"/>
-				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object"/>
-				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup"/>
-				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping"/>
-				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing"/>
-				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
-				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
-				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
-				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
-				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
-				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close"/>
-				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
-				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
-				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
+				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress" GUID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" DurationType="OneShot" DurationMin="1.000068" DurationMax="1.000068"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="7.473719" DurationMax="7.473719"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.234389" DurationMax="5.234389"/>
+				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" GUID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="0.696599" DurationMax="4.307302"/>
+				<Event Id="1792468376" Name="hint1_play" ObjectPath="\Events\Default Work Unit\hint1_play" GUID="{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="4123339242" Name="hint1_stop" ObjectPath="\Events\Default Work Unit\hint1_stop" GUID="{353A2D53-1693-4376-9100-694024371FFB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="656448445" Name="hint2_play" ObjectPath="\Events\Default Work Unit\hint2_play" GUID="{DE607B8C-E09A-4E2C-BF39-26D764E7B241}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="2883764011" Name="hint2_stop" ObjectPath="\Events\Default Work Unit\hint2_stop" GUID="{F6B9D994-F1BD-4E8E-957E-9B45D4761F78}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="209538446" Name="hint3_play" ObjectPath="\Events\Default Work Unit\hint3_play" GUID="{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="1211077744" Name="hint3_stop" ObjectPath="\Events\Default Work Unit\hint3_stop" GUID="{E4A5E59A-25DF-42D8-8040-0FEE74289109}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="889616867" Name="hint4_play" ObjectPath="\Events\Default Work Unit\hint4_play" GUID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="3246161321" Name="hint4_stop" ObjectPath="\Events\Default Work Unit\hint4_stop" GUID="{6E21F53B-0588-4858-9787-346BDDD44946}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4068216044" Name="hint5_play" ObjectPath="\Events\Default Work Unit\hint5_play" GUID="{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="1743033334" Name="hint5_stop" ObjectPath="\Events\Default Work Unit\hint5_stop" GUID="{30F00752-05C7-4C9B-88C6-9A1B26CB2D33}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" GUID="{38526344-2231-45E0-A46F-5840875A23EA}" MaxAttenuation="70.000000" DurationType="Infinite"/>
+				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object" GUID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}" DurationType="OneShot" DurationMin="10.490181" DurationMax="10.490181"/>
+				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup" GUID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" DurationType="OneShot" DurationMin="0.510224" DurationMax="0.510224"/>
+				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping" GUID="{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}" DurationType="OneShot" DurationMin="0.338542" DurationMax="0.402596"/>
+				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing" GUID="{C7FE74F6-B8EB-4CE7-9208-802E7F14E48A}" DurationType="OneShot" DurationMin="0.445449" DurationMax="0.629961"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete" GUID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" DurationType="OneShot" DurationMin="0.443583" DurationMax="0.719070"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt" GUID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" DurationType="OneShot" DurationMin="0.452513" DurationMax="0.496844"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel" GUID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" DurationType="OneShot" DurationMin="0.386644" DurationMax="0.545941"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile" GUID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" DurationType="OneShot" DurationMin="0.393764" DurationMax="0.662993"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water" GUID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" DurationType="OneShot" DurationMin="0.755568" DurationMax="0.808242"/>
+				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close" GUID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" DurationType="OneShot" DurationMin="0.708345" DurationMax="0.804150"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood" GUID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" DurationType="OneShot" DurationMin="0.410010" DurationMax="0.447283"/>
+				<Event Id="3260844493" Name="squirrel_play" ObjectPath="\Events\Default Work Unit\squirrel_play" GUID="{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" GUID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind" GUID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4729481" Language="SFX">
@@ -52,6 +63,10 @@
 				<File Id="47311494" Language="SFX">
 					<ShortName>Concrete\FS_Concrete_02.wav</ShortName>
 					<Path>SFX\Concrete\FS_Concrete_02_9E69E797.wem</Path>
+				</File>
+				<File Id="68108906" Language="SFX">
+					<ShortName>SOUND\SQUIRREL2.wav</ShortName>
+					<Path>SFX\SOUND\SQUIRREL2_9E69E797.wem</Path>
 				</File>
 				<File Id="91700935" Language="SFX">
 					<ShortName>Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00.wav</ShortName>
@@ -76,6 +91,10 @@
 				<File Id="135814206" Language="SFX">
 					<ShortName>Tile\FS_Tile_02.wav</ShortName>
 					<Path>SFX\Tile\FS_Tile_02_9E69E797.wem</Path>
+				</File>
+				<File Id="136519757" Language="SFX">
+					<ShortName>SOUND\SQUIRREL3.wav</ShortName>
+					<Path>SFX\SOUND\SQUIRREL3_9E69E797.wem</Path>
 				</File>
 				<File Id="136628390" Language="SFX">
 					<ShortName>Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04.wav</ShortName>
@@ -125,6 +144,10 @@
 					<ShortName>Gravel\FS_Gravel_02.wav</ShortName>
 					<Path>SFX\Gravel\FS_Gravel_02_9E69E797.wem</Path>
 				</File>
+				<File Id="398773760" Language="SFX">
+					<ShortName>SOUND\SQUIRREL1.wav</ShortName>
+					<Path>SFX\SOUND\SQUIRREL1_9E69E797.wem</Path>
+				</File>
 				<File Id="399336684" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_03.wav</ShortName>
 					<Path>SFX\Dirt\FS_Dirt_03_582AA0F2.wem</Path>
@@ -161,6 +184,10 @@
 					<ShortName>Gravel\FS_Gravel_01.wav</ShortName>
 					<Path>SFX\Gravel\FS_Gravel_01_9E69E797.wem</Path>
 				</File>
+				<File Id="523175331" Language="SFX">
+					<ShortName>upset squirrel.wav</ShortName>
+					<Path>SFX\upset squirrel_298251A1.wem</Path>
+				</File>
 				<File Id="532684422" Language="SFX">
 					<ShortName>Dirt\FS_Dirt_04.wav</ShortName>
 					<Path>SFX\Dirt\FS_Dirt_04_2424265B.wem</Path>
@@ -175,7 +202,11 @@
 				</File>
 				<File Id="614457036" Language="SFX">
 					<ShortName>216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav</ShortName>
-					<Path>SFX\216629__wiesenwiesel__picking-up-small-box-with-items-inside_9E69E797.wem</Path>
+					<Path>SFX\216629__wiesenwiesel__picking-up-small-box-with-items-inside_A9DFD812.wem</Path>
+				</File>
+				<File Id="619348028" Language="SFX">
+					<ShortName>hint music.wav</ShortName>
+					<Path>SFX\hint music_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="641280759" Language="SFX">
 					<ShortName>SOUND\HINT7.wav</ShortName>
@@ -216,6 +247,10 @@
 				<File Id="781915980" Language="SFX">
 					<ShortName>Footstep_water\204013__duckduckpony__footsteps-water-light-002.wav</ShortName>
 					<Path>SFX\Footstep_water\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem</Path>
+				</File>
+				<File Id="784958341" Language="SFX">
+					<ShortName>angry squirrel.wav</ShortName>
+					<Path>SFX\angry squirrel_8050D5FB.wem</Path>
 				</File>
 				<File Id="793180899" Language="SFX">
 					<ShortName>SOUND\PICK UP OBJECT.wav</ShortName>

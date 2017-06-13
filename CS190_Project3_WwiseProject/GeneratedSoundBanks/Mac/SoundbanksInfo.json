@@ -32,14 +32,23 @@
     "Path": "Main.bnk",
     "IncludedEvents": [
      {
+      "Id": "317641954",
+      "Name": "buttonPress",
+      "ObjectPath": "\\Events\\Default Work Unit\\buttonPress",
+      "GUID": "{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.000068",
+      "DurationMax": "1.000068"
+     },
+     {
       "Id": "326967116",
       "Name": "env_bird_chirping1",
       "ObjectPath": "\\Events\\Default Work Unit\\env_bird_chirping1",
       "GUID": "{EB1200F5-A26C-4897-824E-C4EE349B2551}",
       "MaxAttenuation": "50.000000",
       "DurationType": "OneShot",
-      "DurationMin": "9.473719",
-      "DurationMax": "9.473719"
+      "DurationMin": "7.473719",
+      "DurationMax": "7.473719"
      },
      {
       "Id": "326967119",
@@ -60,6 +69,96 @@
       "DurationType": "OneShot",
       "DurationMin": "0.696599",
       "DurationMax": "4.307302"
+     },
+     {
+      "Id": "1792468376",
+      "Name": "hint1_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint1_play",
+      "GUID": "{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "4123339242",
+      "Name": "hint1_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint1_stop",
+      "GUID": "{353A2D53-1693-4376-9100-694024371FFB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "656448445",
+      "Name": "hint2_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint2_play",
+      "GUID": "{DE607B8C-E09A-4E2C-BF39-26D764E7B241}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2883764011",
+      "Name": "hint2_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint2_stop",
+      "GUID": "{F6B9D994-F1BD-4E8E-957E-9B45D4761F78}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "209538446",
+      "Name": "hint3_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint3_play",
+      "GUID": "{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1211077744",
+      "Name": "hint3_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint3_stop",
+      "GUID": "{E4A5E59A-25DF-42D8-8040-0FEE74289109}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "889616867",
+      "Name": "hint4_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint4_play",
+      "GUID": "{09B5A134-77CF-4782-A644-AD4F6D6C7744}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3246161321",
+      "Name": "hint4_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint4_stop",
+      "GUID": "{6E21F53B-0588-4858-9787-346BDDD44946}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "4068216044",
+      "Name": "hint5_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint5_play",
+      "GUID": "{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1743033334",
+      "Name": "hint5_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\hint5_stop",
+      "GUID": "{30F00752-05C7-4C9B-88C6-9A1B26CB2D33}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "3420417565",
@@ -84,8 +183,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\pickup",
       "GUID": "{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}",
       "DurationType": "OneShot",
-      "DurationMin": "1.387710",
-      "DurationMax": "1.387710"
+      "DurationMin": "0.510224",
+      "DurationMax": "0.510224"
      },
      {
       "Id": "1506921427",
@@ -169,6 +268,14 @@
       "DurationMax": "0.447283"
      },
      {
+      "Id": "3260844493",
+      "Name": "squirrel_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\squirrel_play",
+      "GUID": "{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}",
+      "MaxAttenuation": "30.000000",
+      "DurationType": "Infinite"
+     },
+     {
       "Id": "2453122309",
       "Name": "Waves",
       "ObjectPath": "\\Events\\Default Work Unit\\Waves",
@@ -202,6 +309,12 @@
       "Language": "SFX",
       "ShortName": "Concrete\\FS_Concrete_02.wav",
       "Path": "SFX\\Concrete\\FS_Concrete_02_9E69E797.wem"
+     },
+     {
+      "Id": "68108906",
+      "Language": "SFX",
+      "ShortName": "SOUND\\SQUIRREL2.wav",
+      "Path": "SFX\\SOUND\\SQUIRREL2_9E69E797.wem"
      },
      {
       "Id": "91700935",
@@ -238,6 +351,12 @@
       "Language": "SFX",
       "ShortName": "Tile\\FS_Tile_02.wav",
       "Path": "SFX\\Tile\\FS_Tile_02_9E69E797.wem"
+     },
+     {
+      "Id": "136519757",
+      "Language": "SFX",
+      "ShortName": "SOUND\\SQUIRREL3.wav",
+      "Path": "SFX\\SOUND\\SQUIRREL3_9E69E797.wem"
      },
      {
       "Id": "136628390",
@@ -312,6 +431,12 @@
       "Path": "SFX\\Gravel\\FS_Gravel_02_9E69E797.wem"
      },
      {
+      "Id": "398773760",
+      "Language": "SFX",
+      "ShortName": "SOUND\\SQUIRREL1.wav",
+      "Path": "SFX\\SOUND\\SQUIRREL1_9E69E797.wem"
+     },
+     {
       "Id": "399336684",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_03.wav",
@@ -366,6 +491,12 @@
       "Path": "SFX\\Gravel\\FS_Gravel_01_9E69E797.wem"
      },
      {
+      "Id": "523175331",
+      "Language": "SFX",
+      "ShortName": "upset squirrel.wav",
+      "Path": "SFX\\upset squirrel_298251A1.wem"
+     },
+     {
       "Id": "532684422",
       "Language": "SFX",
       "ShortName": "Dirt\\FS_Dirt_04.wav",
@@ -387,7 +518,13 @@
       "Id": "614457036",
       "Language": "SFX",
       "ShortName": "216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav",
-      "Path": "SFX\\216629__wiesenwiesel__picking-up-small-box-with-items-inside_9E69E797.wem"
+      "Path": "SFX\\216629__wiesenwiesel__picking-up-small-box-with-items-inside_A9DFD812.wem"
+     },
+     {
+      "Id": "619348028",
+      "Language": "SFX",
+      "ShortName": "hint music.wav",
+      "Path": "SFX\\hint music_4B8CC0C5.wem"
      },
      {
       "Id": "641280759",
@@ -450,6 +587,12 @@
       "Path": "SFX\\Footstep_water\\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem"
      },
      {
+      "Id": "784958341",
+      "Language": "SFX",
+      "ShortName": "angry squirrel.wav",
+      "Path": "SFX\\angry squirrel_8050D5FB.wem"
+     },
+     {
       "Id": "793180899",
       "Language": "SFX",
       "ShortName": "SOUND\\PICK UP OBJECT.wav",
@@ -466,6 +609,12 @@
       "Language": "SFX",
       "ShortName": "WTR_Waves, Water_3D04_09_01.wav",
       "Path": "SFX\\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem"
+     },
+     {
+      "Id": "897125056",
+      "Language": "SFX",
+      "ShortName": "220212__gameaudio__ping-bing.wav",
+      "Path": "SFX\\220212__gameaudio__ping-bing_9E69E797.wem"
      },
      {
       "Id": "898880659",

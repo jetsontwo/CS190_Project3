@@ -963,7 +963,7 @@
 									<PropertyList>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="LoopCount" Type="int32" Value="10"/>
@@ -1158,7 +1158,7 @@
 								<ActiveSource Name="PICK UP OBJECT6" ID="{FC988CC3-A239-4598-ACFB-6DAA8E34B507}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SQUIRREL1" ID="{BB12EE30-0498-4120-BAF6-E388FB508865}" ShortID="845997319" Type="SoundFX">
+						<Sound Name="clothes rubbing" ID="{C0F4E12A-38E7-40B0-9E0A-64E53F02DEBD}" ShortID="674572239" Type="SoundFX">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
@@ -1168,17 +1168,24 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SQUIRREL1" ID="{F47ECE78-5033-4CE0-AE87-7B55FC232AA6}" ShortID="398773760">
+								<AudioFileSource Name="clothes rubbing" ID="{D7541E23-43B0-47B2-B7EB-7718C83CE8A2}" ShortID="431490816">
 									<Language>SFX</Language>
-									<AudioFile>SOUND\SQUIRREL1.wav</AudioFile>
+									<AudioFile>clothes rubbing.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SQUIRREL1" ID="{F47ECE78-5033-4CE0-AE87-7B55FC232AA6}" Platform="Linked"/>
+								<ActiveSource Name="clothes rubbing" ID="{D7541E23-43B0-47B2-B7EB-7718C83CE8A2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SQUIRREL2" ID="{78612AB1-61CF-4EB6-8B7A-F44C4BFDD3DA}" ShortID="783882138" Type="SoundFX">
+						<Sound Name="hint music" ID="{13C3400E-C749-4D9B-AEDD-BF914DE3B914}" ShortID="702514963" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
 								</Reference>
@@ -1187,17 +1194,27 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SQUIRREL2" ID="{96539236-0ABC-4BAD-B12F-C935897EC11C}" ShortID="68108906">
+								<AudioFileSource Name="hint music" ID="{415CE675-60D5-4233-B078-F6D46CD88774}" ShortID="723931978">
 									<Language>SFX</Language>
-									<AudioFile>SOUND\SQUIRREL2.wav</AudioFile>
+									<AudioFile>hint music.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="619348028"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SQUIRREL2" ID="{96539236-0ABC-4BAD-B12F-C935897EC11C}" Platform="Linked"/>
+								<ActiveSource Name="hint music" ID="{415CE675-60D5-4233-B078-F6D46CD88774}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SQUIRREL3" ID="{3E4D74E7-F047-40C7-A389-74D99C9C83CD}" ShortID="543178277" Type="SoundFX">
+						<Sound Name="hint music_01" ID="{D0608D8A-3F12-4829-A101-26367402FDFC}" ShortID="220938752" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
 								</Reference>
@@ -1206,13 +1223,100 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SQUIRREL3" ID="{A6970D6D-698D-4C62-A2BC-506BB7220B55}" ShortID="136519757">
+								<AudioFileSource Name="hint music" ID="{218C060F-9B2D-400A-A504-3E8F1134F466}" ShortID="976370073">
 									<Language>SFX</Language>
-									<AudioFile>SOUND\SQUIRREL3.wav</AudioFile>
+									<AudioFile>hint music.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="619348028"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SQUIRREL3" ID="{A6970D6D-698D-4C62-A2BC-506BB7220B55}" Platform="Linked"/>
+								<ActiveSource Name="hint music" ID="{218C060F-9B2D-400A-A504-3E8F1134F466}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hint music_02" ID="{25B1D88B-DD9B-4DC0-B389-6A3D24CEF9B8}" ShortID="607629091" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hint music" ID="{14C5A10A-DAF5-4BAE-8D8A-536C8BB6C511}" ShortID="836953826">
+									<Language>SFX</Language>
+									<AudioFile>hint music.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="619348028"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hint music" ID="{14C5A10A-DAF5-4BAE-8D8A-536C8BB6C511}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hint music_03" ID="{4AB80508-37D7-43BE-943E-52ADB23D658E}" ShortID="937532018" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hint music" ID="{9C6DAFF2-AD9A-4BBF-BCE4-E39BA1466E39}" ShortID="1054713687">
+									<Language>SFX</Language>
+									<AudioFile>hint music.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="619348028"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hint music" ID="{9C6DAFF2-AD9A-4BBF-BCE4-E39BA1466E39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hint music_04" ID="{E1973304-4C90-4019-BEB6-3BCCA9EA48D6}" ShortID="476023384" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hint music" ID="{DA67AAEA-A53D-4B2F-8BD4-708A390DA034}" ShortID="619348028">
+									<Language>SFX</Language>
+									<AudioFile>hint music.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hint music" ID="{DA67AAEA-A53D-4B2F-8BD4-708A390DA034}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1279,7 +1383,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1612,6 +1716,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="pickingup_small_box" ID="{D5C1ED13-8854-4CBC-8AEA-83861BE06D0C}" ShortID="313832203" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
@@ -1622,6 +1733,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="216629__wiesenwiesel__picking-up-small-box-with-items-inside" ID="{8D7812BA-6B21-41A2-A273-9D6EBDD7957A}" ShortID="614457036">
+							<PropertyList>
+								<Property Name="TrimEnd" Type="Real64" Value="0.510223656069888"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav</AudioFile>
 						</AudioFileSource>
@@ -1734,6 +1848,184 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Squirrel" ID="{713B587F-BEFF-4A77-8B15-5D13072528B0}" ShortID="490388962">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="squirrel_atten" ID="{762BF2C5-65EA-4D13-B1F2-F88F1C5B5A5D}" WorkUnitID="{B792B3A2-E12B-49B6-82AA-AEDB925CE688}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SQUIRREL2" ID="{78612AB1-61CF-4EB6-8B7A-F44C4BFDD3DA}" ShortID="783882138" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SQUIRREL2" ID="{96539236-0ABC-4BAD-B12F-C935897EC11C}" ShortID="68108906">
+									<Language>SFX</Language>
+									<AudioFile>SOUND\SQUIRREL2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SQUIRREL2" ID="{96539236-0ABC-4BAD-B12F-C935897EC11C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SQUIRREL3" ID="{3E4D74E7-F047-40C7-A389-74D99C9C83CD}" ShortID="543178277" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{689B54D8-9C34-4DCC-B3F8-8D075CF562BD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SQUIRREL3" ID="{A6970D6D-698D-4C62-A2BC-506BB7220B55}" ShortID="136519757">
+									<Language>SFX</Language>
+									<AudioFile>SOUND\SQUIRREL3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SQUIRREL3" ID="{A6970D6D-698D-4C62-A2BC-506BB7220B55}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SQUIRREL1" ID="{BB12EE30-0498-4120-BAF6-E388FB508865}" ShortID="845997319" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BD54F380-72F4-42DF-8D8A-6A38B58875A2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SQUIRREL1" ID="{F47ECE78-5033-4CE0-AE87-7B55FC232AA6}" ShortID="398773760">
+									<Language>SFX</Language>
+									<AudioFile>SOUND\SQUIRREL1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SQUIRREL1" ID="{F47ECE78-5033-4CE0-AE87-7B55FC232AA6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="angry squirrel" ID="{45196A30-B80F-4727-890C-DE21F7783CF9}" ShortID="658588239" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="angry squirrel" ID="{31291A69-08B3-4816-92F9-44AF6133B75E}" ShortID="784958341">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.617408582142152"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>angry squirrel.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="angry squirrel" ID="{31291A69-08B3-4816-92F9-44AF6133B75E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="upset squirrel" ID="{603AF241-8663-43BE-9C4F-75984A714567}" ShortID="947082720" Type="SoundFX">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="upset squirrel" ID="{29321A99-281A-46DE-8ED6-FA01DA247D90}" ShortID="523175331">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="13.1046588973067"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>upset squirrel.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="upset squirrel" ID="{29321A99-281A-46DE-8ED6-FA01DA247D90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

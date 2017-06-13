@@ -204,6 +204,127 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="hint1_play" ID="{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}">
+					<ChildrenList>
+						<Action Name="Play" ID="{456553CE-FCE2-4D05-B3D6-4B5A0FC39A08}" ShortID="54817532" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D6EEB971-1A70-4E4A-8EEC-4E1B97CCCA84}" Global="false">
+									<ObjectRef Name="hint music" ID="{13C3400E-C749-4D9B-AEDD-BF914DE3B914}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint2_play" ID="{DE607B8C-E09A-4E2C-BF39-26D764E7B241}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B2AEC145-CC35-49CB-B668-F360F411F2C4}" ShortID="432389842" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{31C9199D-4D83-4F04-8EFC-ECA32B58189A}" Global="false">
+									<ObjectRef Name="hint music_01" ID="{D0608D8A-3F12-4829-A101-26367402FDFC}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint3_play" ID="{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{38684EBB-13F2-4C27-B34E-5D3A5B1D4C08}" ShortID="834455872" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F6FCDB8-FC6B-4F86-98E3-B1DB6C576FE3}" Global="false">
+									<ObjectRef Name="hint music_02" ID="{25B1D88B-DD9B-4DC0-B389-6A3D24CEF9B8}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint4_play" ID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C3A346EF-D681-48BC-9645-7BFB1FAF5F80}" ShortID="501502564" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F4D4A560-EBE8-46CB-A130-53199F5FB33C}" Global="false">
+									<ObjectRef Name="hint music_03" ID="{4AB80508-37D7-43BE-943E-52ADB23D658E}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint5_play" ID="{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B8942455-1AE6-4BB2-9031-EF0517254915}" ShortID="126014393" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{87A0354E-5D09-4E15-8A75-6CAB4DA7EDB2}" Global="false">
+									<ObjectRef Name="hint music_04" ID="{E1973304-4C90-4019-BEB6-3BCCA9EA48D6}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="squirrel_play" ID="{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}">
+					<ChildrenList>
+						<Action Name="Play" ID="{567E3381-F2B6-4DCE-898C-A3119417AFA4}" ShortID="813067283" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D1180161-E0DA-4300-B226-9F523D34098F}" Global="false">
+									<ObjectRef Name="Squirrel" ID="{713B587F-BEFF-4A77-8B15-5D13072528B0}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint1_stop" ID="{353A2D53-1693-4376-9100-694024371FFB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{050948F0-C32D-41EB-AE2D-29332DA6CA38}" ShortID="63713180" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{269897DF-FAE9-4D30-B50E-4D03244F4D9C}" Global="false">
+									<ObjectRef Name="hint music" ID="{13C3400E-C749-4D9B-AEDD-BF914DE3B914}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint2_stop" ID="{F6B9D994-F1BD-4E8E-957E-9B45D4761F78}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{103B8ED0-8298-4322-A461-5F94CBBAA904}" ShortID="492958717" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A6891835-C730-4A04-94AE-4CE7EA4748ED}" Global="false">
+									<ObjectRef Name="hint music_01" ID="{D0608D8A-3F12-4829-A101-26367402FDFC}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint3_stop" ID="{E4A5E59A-25DF-42D8-8040-0FEE74289109}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{DCA39460-DD48-40DB-B948-55C37B6E9CDA}" ShortID="482214530" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B215BB81-F253-4B76-B4E2-EF0D14B12347}" Global="false">
+									<ObjectRef Name="hint music_02" ID="{25B1D88B-DD9B-4DC0-B389-6A3D24CEF9B8}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint4_stop" ID="{6E21F53B-0588-4858-9787-346BDDD44946}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C5660C09-3002-4FE6-9032-C8CB28BE8024}" ShortID="616827664" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{099CF853-6826-4364-B120-FDAA181D6EBB}" Global="false">
+									<ObjectRef Name="hint music_03" ID="{4AB80508-37D7-43BE-943E-52ADB23D658E}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hint5_stop" ID="{30F00752-05C7-4C9B-88C6-9A1B26CB2D33}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C2D7D47C-625D-46D9-9189-BC6F8DED01B6}" ShortID="728805944" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7FD8021D-96F4-4CAF-A145-55AB78160F5B}" Global="false">
+									<ObjectRef Name="hint music_04" ID="{E1973304-4C90-4019-BEB6-3BCCA9EA48D6}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
