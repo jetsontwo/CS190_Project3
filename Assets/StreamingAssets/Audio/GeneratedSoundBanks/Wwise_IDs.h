@@ -13,13 +13,21 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BUTTONPRESS = 317641954U;
         static const AkUniqueID ENV_BIRD_CHIRPING1 = 326967116U;
         static const AkUniqueID ENV_BIRD_CHIRPING2 = 326967119U;
+        static const AkUniqueID FISH_SOUNDS = 2839789934U;
+        static const AkUniqueID HINTS = 3420417565U;
+        static const AkUniqueID PICK_UP_OBJECT = 3861027660U;
+        static const AkUniqueID PICKUP = 3978245845U;
+        static const AkUniqueID PLAYER_JUMPING = 1506921427U;
+        static const AkUniqueID PLAYER_LANDING = 1282282006U;
         static const AkUniqueID PLAYERWALK_CONCRETE = 1685368833U;
         static const AkUniqueID PLAYERWALK_DIRT = 3277136171U;
         static const AkUniqueID PLAYERWALK_GRAVEL = 1592501941U;
         static const AkUniqueID PLAYERWALK_TILE = 2308746324U;
         static const AkUniqueID PLAYERWALK_WATER = 1876925021U;
+        static const AkUniqueID PLAYERWALK_WATER_CLOSE = 3668604724U;
         static const AkUniqueID PLAYERWALK_WOOD = 3420637487U;
         static const AkUniqueID WAVES = 2453122309U;
         static const AkUniqueID WIND = 1537061107U;

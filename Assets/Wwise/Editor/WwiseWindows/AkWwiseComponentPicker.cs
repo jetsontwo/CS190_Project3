@@ -8,8 +8,8 @@
 using UnityEngine;
 using UnityEditor;
 using System;
-using System.IO;
 using System.Collections.Generic;
+using AK.Wwise.TreeView;
 
 public class AkWwiseComponentPicker : EditorWindow
 {	
@@ -36,7 +36,7 @@ public class AkWwiseComponentPicker : EditorWindow
 				pos.y = in_pos.y - (Screen.currentResolution.height / 2);
 			}
 
-			//We show a drop down window which is automatically destoyed when focus is lost
+			//We show a drop down window which is automatically destroyed when focus is lost
 			s_componentPicker.ShowAsDropDown(pos, new Vector2 (in_pos.width >= 250 ? in_pos.width : 250, Screen.currentResolution.height / 2));  
 
 			s_componentPicker.m_selectedItemGuid	= in_guid;

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
+				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" MaxAttenuation="20.000000"/>
+				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" MaxAttenuation="70.000000"/>
+				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object"/>
+				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup"/>
+				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping"/>
+				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
+				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4729481" Language="SFX">
+					<ShortName>SOUND\HINT1.wav</ShortName>
+					<Path>SFX\SOUND\HINT1_7A663DB3.wem</Path>
+				</File>
+				<File Id="4874044" Language="SFX">
+					<ShortName>Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270424__littlerobotsoundfactory__footstep-water-06_9E69E797.wem</Path>
+				</File>
+				<File Id="47311494" Language="SFX">
+					<ShortName>Concrete\FS_Concrete_02.wav</ShortName>
+					<Path>SFX\Concrete\FS_Concrete_02_9E69E797.wem</Path>
+				</File>
+				<File Id="91700935" Language="SFX">
+					<ShortName>Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270423__littlerobotsoundfactory__footstep-water-00_9E69E797.wem</Path>
+				</File>
+				<File Id="121101907" Language="SFX">
+					<ShortName>Tile\FS_Tile_04.wav</ShortName>
+					<Path>SFX\Tile\FS_Tile_04_9E69E797.wem</Path>
+				</File>
+				<File Id="121668151" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_AC9A860D.wem</Path>
+				</File>
+				<File Id="123335313" Language="SFX">
+					<ShortName>Footstep_Water_close\270425__littlerobotsoundfactory__footstep-water-02.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270425__littlerobotsoundfactory__footstep-water-02_9E69E797.wem</Path>
+				</File>
+				<File Id="135036215" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_84DBBF64.wem</Path>
+				</File>
+				<File Id="135814206" Language="SFX">
+					<ShortName>Tile\FS_Tile_02.wav</ShortName>
+					<Path>SFX\Tile\FS_Tile_02_9E69E797.wem</Path>
+				</File>
+				<File Id="136628390" Language="SFX">
+					<ShortName>Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270427__littlerobotsoundfactory__footstep-water-04_9E69E797.wem</Path>
+				</File>
+				<File Id="150379404" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_5A0A9621.wem</Path>
+				</File>
+				<File Id="220189828" Language="SFX">
+					<ShortName>390769__d00121058__fx-022-breath-landing.wav</ShortName>
+					<Path>SFX\390769__d00121058__fx-022-breath-landing_9E69E797.wem</Path>
+				</File>
+				<File Id="242053235" Language="SFX">
+					<ShortName>Concrete\FS_Concrete_03.wav</ShortName>
+					<Path>SFX\Concrete\FS_Concrete_03_9E69E797.wem</Path>
+				</File>
+				<File Id="256959046" Language="SFX">
+					<ShortName>390768__d00121058__fx-021-breath-jump.wav</ShortName>
+					<Path>SFX\390768__d00121058__fx-021-breath-jump_9E69E797.wem</Path>
+				</File>
+				<File Id="271382503" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_02.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_02_7A8E76E3.wem</Path>
+				</File>
+				<File Id="298817083" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_01.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_01_9E69E797.wem</Path>
+				</File>
+				<File Id="311420785" Language="SFX">
+					<ShortName>SOUND\HINT4.wav</ShortName>
+					<Path>SFX\SOUND\HINT4_F69A650A.wem</Path>
+				</File>
+				<File Id="333675292" Language="SFX">
+					<ShortName>Tile\FS_Tile_03.wav</ShortName>
+					<Path>SFX\Tile\FS_Tile_03_9E69E797.wem</Path>
+				</File>
+				<File Id="371769578" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_2.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_2_9E69E797.wem</Path>
+				</File>
+				<File Id="385396801" Language="SFX">
+					<ShortName>Footstep_Water_close\270429__littlerobotsoundfactory__footstep-water-03.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270429__littlerobotsoundfactory__footstep-water-03_9E69E797.wem</Path>
+				</File>
+				<File Id="391524583" Language="SFX">
+					<ShortName>Gravel\FS_Gravel_02.wav</ShortName>
+					<Path>SFX\Gravel\FS_Gravel_02_9E69E797.wem</Path>
+				</File>
+				<File Id="399336684" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_03.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_03_582AA0F2.wem</Path>
+				</File>
+				<File Id="407670381" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_4.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_4_9E69E797.wem</Path>
+				</File>
+				<File Id="407730853" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_6.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_6_9E69E797.wem</Path>
+				</File>
+				<File Id="432973719" Language="SFX">
+					<ShortName>Footstep_Water_close\270426__littlerobotsoundfactory__footstep-water-07.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270426__littlerobotsoundfactory__footstep-water-07_9E69E797.wem</Path>
+				</File>
+				<File Id="472861571" Language="SFX">
+					<ShortName>Footstep_water\204034__duckduckpony__footsteps-water-light-007.wav</ShortName>
+					<Path>SFX\Footstep_water\204034__duckduckpony__footsteps-water-light-007_9551BF14.wem</Path>
+				</File>
+				<File Id="490690718" Language="SFX">
+					<ShortName>Tile\FS_Tile_01.wav</ShortName>
+					<Path>SFX\Tile\FS_Tile_01_9E69E797.wem</Path>
+				</File>
+				<File Id="491594207" Language="SFX">
+					<ShortName>Gravel\FS_Gravel_03.wav</ShortName>
+					<Path>SFX\Gravel\FS_Gravel_03_9E69E797.wem</Path>
+				</File>
+				<File Id="498806148" Language="SFX">
+					<ShortName>Birds\339326__inspectorj__bird-whistling-a.wav</ShortName>
+					<Path>SFX\Birds\339326__inspectorj__bird-whistling-a_9FE027F0.wem</Path>
+				</File>
+				<File Id="502497633" Language="SFX">
+					<ShortName>Gravel\FS_Gravel_01.wav</ShortName>
+					<Path>SFX\Gravel\FS_Gravel_01_9E69E797.wem</Path>
+				</File>
+				<File Id="532684422" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_04.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_04_2424265B.wem</Path>
+				</File>
+				<File Id="561422158" Language="SFX">
+					<ShortName>Footstep_water\204032__duckduckpony__footsteps-water-light-005.wav</ShortName>
+					<Path>SFX\Footstep_water\204032__duckduckpony__footsteps-water-light-005_587EC00B.wem</Path>
+				</File>
+				<File Id="585604210" Language="SFX">
+					<ShortName>Concrete\FS_Concrete_04.wav</ShortName>
+					<Path>SFX\Concrete\FS_Concrete_04_9E69E797.wem</Path>
+				</File>
+				<File Id="614457036" Language="SFX">
+					<ShortName>216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav</ShortName>
+					<Path>SFX\216629__wiesenwiesel__picking-up-small-box-with-items-inside_9E69E797.wem</Path>
+				</File>
+				<File Id="641280759" Language="SFX">
+					<ShortName>SOUND\HINT7.wav</ShortName>
+					<Path>SFX\SOUND\HINT7_5004D1BF.wem</Path>
+				</File>
+				<File Id="644582612" Language="SFX">
+					<ShortName>Footstep_water\204035__duckduckpony__footsteps-water-light-008.wav</ShortName>
+					<Path>SFX\Footstep_water\204035__duckduckpony__footsteps-water-light-008_C834BEBC.wem</Path>
+				</File>
+				<File Id="671196794" Language="SFX">
+					<ShortName>Concrete\FS_Concrete_01.wav</ShortName>
+					<Path>SFX\Concrete\FS_Concrete_01_9E69E797.wem</Path>
+				</File>
+				<File Id="685700844" Language="SFX">
+					<ShortName>Footstep_Water_close\270422__littlerobotsoundfactory__footstep-water-01.wav</ShortName>
+					<Path>SFX\Footstep_Water_close\270422__littlerobotsoundfactory__footstep-water-01_9E69E797.wem</Path>
+				</File>
+				<File Id="700856156" Language="SFX">
+					<ShortName>SOUND\HINT3.wav</ShortName>
+					<Path>SFX\SOUND\HINT3_28A22DEF.wem</Path>
+				</File>
+				<File Id="707947815" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_1.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_1_9E69E797.wem</Path>
+				</File>
+				<File Id="715019499" Language="SFX">
+					<ShortName>Footstep_water\204017__duckduckpony__footsteps-water-light-004.wav</ShortName>
+					<Path>SFX\Footstep_water\204017__duckduckpony__footsteps-water-light-004_6ABEF1AB.wem</Path>
+				</File>
+				<File Id="719293819" Language="SFX">
+					<ShortName>wind.wav</ShortName>
+					<Path>SFX\wind_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="742044353" Language="SFX">
+					<ShortName>Gravel\FS_Gravel_04.wav</ShortName>
+					<Path>SFX\Gravel\FS_Gravel_04_9E69E797.wem</Path>
+				</File>
+				<File Id="781915980" Language="SFX">
+					<ShortName>Footstep_water\204013__duckduckpony__footsteps-water-light-002.wav</ShortName>
+					<Path>SFX\Footstep_water\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem</Path>
+				</File>
+				<File Id="793180899" Language="SFX">
+					<ShortName>SOUND\PICK UP OBJECT.wav</ShortName>
+					<Path>SFX\SOUND\PICK UP OBJECT_9E69E797.wem</Path>
+				</File>
+				<File Id="841071829" Language="SFX">
+					<ShortName>Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624.wav</ShortName>
+					<Path>SFX\Footstep_water\204018__duckduckpony__footsteps-water-light-003-9624_6376AA83.wem</Path>
+				</File>
+				<File Id="844563533" Language="SFX">
+					<ShortName>WTR_Waves, Water_3D04_09_01.wav</ShortName>
+					<Path>SFX\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="897125056" Language="SFX">
+					<ShortName>220212__gameaudio__ping-bing.wav</ShortName>
+					<Path>SFX\220212__gameaudio__ping-bing_9E69E797.wem</Path>
+				</File>
+				<File Id="898880659" Language="SFX">
+					<ShortName>Footstep_water\204014__duckduckpony__footsteps-water-light-001.wav</ShortName>
+					<Path>SFX\Footstep_water\204014__duckduckpony__footsteps-water-light-001_306D430B.wem</Path>
+				</File>
+				<File Id="909118349" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_DA78F783.wem</Path>
+				</File>
+				<File Id="943931174" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_E3555519.wem</Path>
+				</File>
+				<File Id="960984688" Language="SFX">
+					<ShortName>SOUND\HINT5.wav</ShortName>
+					<Path>SFX\SOUND\HINT5_98D70A60.wem</Path>
+				</File>
+				<File Id="967197798" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_5.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_5_9E69E797.wem</Path>
+				</File>
+				<File Id="1004164203" Language="SFX">
+					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_3.wav</ShortName>
+					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_3_9E69E797.wem</Path>
+				</File>
+				<File Id="1007205368" Language="SFX">
+					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
+					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_51D73D49.wem</Path>
+				</File>
+				<File Id="1018505841" Language="SFX">
+					<ShortName>Birds\266832__supercell10__bird-chirping.wav</ShortName>
+					<Path>SFX\Birds\266832__supercell10__bird-chirping_9E69E797.wem</Path>
+				</File>
+				<File Id="1044104810" Language="SFX">
+					<ShortName>Footstep_water\204033__duckduckpony__footsteps-water-light-006.wav</ShortName>
+					<Path>SFX\Footstep_water\204033__duckduckpony__footsteps-water-light-006_2C31595F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

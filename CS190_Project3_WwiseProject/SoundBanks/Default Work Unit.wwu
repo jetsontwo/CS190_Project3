@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayerWalk_gravel" ID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fish_Sounds" ID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_water_close" ID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>

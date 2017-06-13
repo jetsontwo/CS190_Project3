@@ -1,0 +1,528 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "120",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Kyaa\\Documents\\GitHub\\Local_Projects\\CS190\\CS190_Project3\\CS190_Project3_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Kyaa\\Documents\\GitHub\\Local_Projects\\CS190\\CS190_Project3\\CS190_Project3_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Kyaa\\Documents\\GitHub\\Local_Projects\\CS190\\CS190_Project3\\CS190_Project3_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Kyaa\\Documents\\GitHub\\Local_Projects\\CS190\\CS190_Project3\\CS190_Project3_WwiseProject\\GeneratedSoundBanks\\Windows\\"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
+    "Id": "3161908922",
+    "GUID": "{46D06830-4449-4AF1-AF9F-65E10B4047C4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "326967116",
+      "Name": "env_bird_chirping1",
+      "ObjectPath": "\\Events\\Default Work Unit\\env_bird_chirping1",
+      "GUID": "{EB1200F5-A26C-4897-824E-C4EE349B2551}",
+      "MaxAttenuation": "50.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "9.473719",
+      "DurationMax": "9.473719"
+     },
+     {
+      "Id": "326967119",
+      "Name": "env_bird_chirping2",
+      "ObjectPath": "\\Events\\Default Work Unit\\env_bird_chirping2",
+      "GUID": "{622018EB-960E-4344-AB39-14F24EE73AD0}",
+      "MaxAttenuation": "30.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.234389",
+      "DurationMax": "5.234389"
+     },
+     {
+      "Id": "2839789934",
+      "Name": "Fish_Sounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Fish_Sounds",
+      "GUID": "{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}",
+      "MaxAttenuation": "20.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.696599",
+      "DurationMax": "4.307302"
+     },
+     {
+      "Id": "3420417565",
+      "Name": "Hints",
+      "ObjectPath": "\\Events\\Default Work Unit\\Hints",
+      "GUID": "{38526344-2231-45E0-A46F-5840875A23EA}",
+      "MaxAttenuation": "70.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3861027660",
+      "Name": "pick_up_object",
+      "ObjectPath": "\\Events\\Default Work Unit\\pick_up_object",
+      "GUID": "{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.490181",
+      "DurationMax": "10.490181"
+     },
+     {
+      "Id": "3978245845",
+      "Name": "pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\pickup",
+      "GUID": "{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.387710",
+      "DurationMax": "1.387710"
+     },
+     {
+      "Id": "1506921427",
+      "Name": "Player_jumping",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_jumping",
+      "GUID": "{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.338542",
+      "DurationMax": "0.402596"
+     },
+     {
+      "Id": "1282282006",
+      "Name": "Player_landing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_landing",
+      "GUID": "{C7FE74F6-B8EB-4CE7-9208-802E7F14E48A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.445449",
+      "DurationMax": "0.629961"
+     },
+     {
+      "Id": "1685368833",
+      "Name": "PlayerWalk_concrete",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_concrete",
+      "GUID": "{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.443583",
+      "DurationMax": "0.719070"
+     },
+     {
+      "Id": "3277136171",
+      "Name": "PlayerWalk_dirt",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_dirt",
+      "GUID": "{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.452513",
+      "DurationMax": "0.496844"
+     },
+     {
+      "Id": "1592501941",
+      "Name": "PlayerWalk_gravel",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_gravel",
+      "GUID": "{DDB8BD0E-E86C-4051-8568-188D3181F338}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.386644",
+      "DurationMax": "0.545941"
+     },
+     {
+      "Id": "2308746324",
+      "Name": "PlayerWalk_tile",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_tile",
+      "GUID": "{C2101E05-6538-40BE-9DD1-82CFF986727C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.393764",
+      "DurationMax": "0.662993"
+     },
+     {
+      "Id": "1876925021",
+      "Name": "PlayerWalk_water",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_water",
+      "GUID": "{D6554DC8-80FE-4C7D-8A18-72333751B078}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.755568",
+      "DurationMax": "0.808242"
+     },
+     {
+      "Id": "3668604724",
+      "Name": "PlayerWalk_water_close",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_water_close",
+      "GUID": "{548C24BC-769C-430C-B5D2-0A5DAA259DC2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.708345",
+      "DurationMax": "0.804150"
+     },
+     {
+      "Id": "3420637487",
+      "Name": "PlayerWalk_wood",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerWalk_wood",
+      "GUID": "{C3B96554-EDEF-458E-BDF6-7E3CC802E269}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.410010",
+      "DurationMax": "0.447283"
+     },
+     {
+      "Id": "2453122309",
+      "Name": "Waves",
+      "ObjectPath": "\\Events\\Default Work Unit\\Waves",
+      "GUID": "{1CD5A68F-6BB2-4810-8E5A-4973C6298057}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1537061107",
+      "Name": "Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wind",
+      "GUID": "{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}",
+      "DurationType": "Infinite"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "4729481",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT1.wav",
+      "Path": "SFX\\SOUND\\HINT1_7A663DB3.wem"
+     },
+     {
+      "Id": "4874044",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270424__littlerobotsoundfactory__footstep-water-06.wav",
+      "Path": "SFX\\Footstep_Water_close\\270424__littlerobotsoundfactory__footstep-water-06_9E69E797.wem"
+     },
+     {
+      "Id": "47311494",
+      "Language": "SFX",
+      "ShortName": "Concrete\\FS_Concrete_02.wav",
+      "Path": "SFX\\Concrete\\FS_Concrete_02_9E69E797.wem"
+     },
+     {
+      "Id": "91700935",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270423__littlerobotsoundfactory__footstep-water-00.wav",
+      "Path": "SFX\\Footstep_Water_close\\270423__littlerobotsoundfactory__footstep-water-00_9E69E797.wem"
+     },
+     {
+      "Id": "121101907",
+      "Language": "SFX",
+      "ShortName": "Tile\\FS_Tile_04.wav",
+      "Path": "SFX\\Tile\\FS_Tile_04_9E69E797.wem"
+     },
+     {
+      "Id": "121668151",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_AC9A860D.wem"
+     },
+     {
+      "Id": "123335313",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270425__littlerobotsoundfactory__footstep-water-02.wav",
+      "Path": "SFX\\Footstep_Water_close\\270425__littlerobotsoundfactory__footstep-water-02_9E69E797.wem"
+     },
+     {
+      "Id": "135036215",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_84DBBF64.wem"
+     },
+     {
+      "Id": "135814206",
+      "Language": "SFX",
+      "ShortName": "Tile\\FS_Tile_02.wav",
+      "Path": "SFX\\Tile\\FS_Tile_02_9E69E797.wem"
+     },
+     {
+      "Id": "136628390",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270427__littlerobotsoundfactory__footstep-water-04.wav",
+      "Path": "SFX\\Footstep_Water_close\\270427__littlerobotsoundfactory__footstep-water-04_9E69E797.wem"
+     },
+     {
+      "Id": "150379404",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_5A0A9621.wem"
+     },
+     {
+      "Id": "220189828",
+      "Language": "SFX",
+      "ShortName": "390769__d00121058__fx-022-breath-landing.wav",
+      "Path": "SFX\\390769__d00121058__fx-022-breath-landing_9E69E797.wem"
+     },
+     {
+      "Id": "242053235",
+      "Language": "SFX",
+      "ShortName": "Concrete\\FS_Concrete_03.wav",
+      "Path": "SFX\\Concrete\\FS_Concrete_03_9E69E797.wem"
+     },
+     {
+      "Id": "256959046",
+      "Language": "SFX",
+      "ShortName": "390768__d00121058__fx-021-breath-jump.wav",
+      "Path": "SFX\\390768__d00121058__fx-021-breath-jump_9E69E797.wem"
+     },
+     {
+      "Id": "271382503",
+      "Language": "SFX",
+      "ShortName": "Dirt\\FS_Dirt_02.wav",
+      "Path": "SFX\\Dirt\\FS_Dirt_02_7A8E76E3.wem"
+     },
+     {
+      "Id": "298817083",
+      "Language": "SFX",
+      "ShortName": "Dirt\\FS_Dirt_01.wav",
+      "Path": "SFX\\Dirt\\FS_Dirt_01_9E69E797.wem"
+     },
+     {
+      "Id": "311420785",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT4.wav",
+      "Path": "SFX\\SOUND\\HINT4_F69A650A.wem"
+     },
+     {
+      "Id": "333675292",
+      "Language": "SFX",
+      "ShortName": "Tile\\FS_Tile_03.wav",
+      "Path": "SFX\\Tile\\FS_Tile_03_9E69E797.wem"
+     },
+     {
+      "Id": "371769578",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_2.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_2_9E69E797.wem"
+     },
+     {
+      "Id": "385396801",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270429__littlerobotsoundfactory__footstep-water-03.wav",
+      "Path": "SFX\\Footstep_Water_close\\270429__littlerobotsoundfactory__footstep-water-03_9E69E797.wem"
+     },
+     {
+      "Id": "391524583",
+      "Language": "SFX",
+      "ShortName": "Gravel\\FS_Gravel_02.wav",
+      "Path": "SFX\\Gravel\\FS_Gravel_02_9E69E797.wem"
+     },
+     {
+      "Id": "399336684",
+      "Language": "SFX",
+      "ShortName": "Dirt\\FS_Dirt_03.wav",
+      "Path": "SFX\\Dirt\\FS_Dirt_03_582AA0F2.wem"
+     },
+     {
+      "Id": "407670381",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_4.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_4_9E69E797.wem"
+     },
+     {
+      "Id": "407730853",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_6.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_6_9E69E797.wem"
+     },
+     {
+      "Id": "432973719",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270426__littlerobotsoundfactory__footstep-water-07.wav",
+      "Path": "SFX\\Footstep_Water_close\\270426__littlerobotsoundfactory__footstep-water-07_9E69E797.wem"
+     },
+     {
+      "Id": "472861571",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204034__duckduckpony__footsteps-water-light-007.wav",
+      "Path": "SFX\\Footstep_water\\204034__duckduckpony__footsteps-water-light-007_9551BF14.wem"
+     },
+     {
+      "Id": "490690718",
+      "Language": "SFX",
+      "ShortName": "Tile\\FS_Tile_01.wav",
+      "Path": "SFX\\Tile\\FS_Tile_01_9E69E797.wem"
+     },
+     {
+      "Id": "491594207",
+      "Language": "SFX",
+      "ShortName": "Gravel\\FS_Gravel_03.wav",
+      "Path": "SFX\\Gravel\\FS_Gravel_03_9E69E797.wem"
+     },
+     {
+      "Id": "498806148",
+      "Language": "SFX",
+      "ShortName": "Birds\\339326__inspectorj__bird-whistling-a.wav",
+      "Path": "SFX\\Birds\\339326__inspectorj__bird-whistling-a_9FE027F0.wem"
+     },
+     {
+      "Id": "502497633",
+      "Language": "SFX",
+      "ShortName": "Gravel\\FS_Gravel_01.wav",
+      "Path": "SFX\\Gravel\\FS_Gravel_01_9E69E797.wem"
+     },
+     {
+      "Id": "532684422",
+      "Language": "SFX",
+      "ShortName": "Dirt\\FS_Dirt_04.wav",
+      "Path": "SFX\\Dirt\\FS_Dirt_04_2424265B.wem"
+     },
+     {
+      "Id": "561422158",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204032__duckduckpony__footsteps-water-light-005.wav",
+      "Path": "SFX\\Footstep_water\\204032__duckduckpony__footsteps-water-light-005_587EC00B.wem"
+     },
+     {
+      "Id": "585604210",
+      "Language": "SFX",
+      "ShortName": "Concrete\\FS_Concrete_04.wav",
+      "Path": "SFX\\Concrete\\FS_Concrete_04_9E69E797.wem"
+     },
+     {
+      "Id": "614457036",
+      "Language": "SFX",
+      "ShortName": "216629__wiesenwiesel__picking-up-small-box-with-items-inside.wav",
+      "Path": "SFX\\216629__wiesenwiesel__picking-up-small-box-with-items-inside_9E69E797.wem"
+     },
+     {
+      "Id": "641280759",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT7.wav",
+      "Path": "SFX\\SOUND\\HINT7_5004D1BF.wem"
+     },
+     {
+      "Id": "644582612",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204035__duckduckpony__footsteps-water-light-008.wav",
+      "Path": "SFX\\Footstep_water\\204035__duckduckpony__footsteps-water-light-008_C834BEBC.wem"
+     },
+     {
+      "Id": "671196794",
+      "Language": "SFX",
+      "ShortName": "Concrete\\FS_Concrete_01.wav",
+      "Path": "SFX\\Concrete\\FS_Concrete_01_9E69E797.wem"
+     },
+     {
+      "Id": "685700844",
+      "Language": "SFX",
+      "ShortName": "Footstep_Water_close\\270422__littlerobotsoundfactory__footstep-water-01.wav",
+      "Path": "SFX\\Footstep_Water_close\\270422__littlerobotsoundfactory__footstep-water-01_9E69E797.wem"
+     },
+     {
+      "Id": "700856156",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT3.wav",
+      "Path": "SFX\\SOUND\\HINT3_28A22DEF.wem"
+     },
+     {
+      "Id": "707947815",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_1.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_1_9E69E797.wem"
+     },
+     {
+      "Id": "715019499",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204017__duckduckpony__footsteps-water-light-004.wav",
+      "Path": "SFX\\Footstep_water\\204017__duckduckpony__footsteps-water-light-004_6ABEF1AB.wem"
+     },
+     {
+      "Id": "719293819",
+      "Language": "SFX",
+      "ShortName": "wind.wav",
+      "Path": "SFX\\wind_4B8CC0C5.wem"
+     },
+     {
+      "Id": "742044353",
+      "Language": "SFX",
+      "ShortName": "Gravel\\FS_Gravel_04.wav",
+      "Path": "SFX\\Gravel\\FS_Gravel_04_9E69E797.wem"
+     },
+     {
+      "Id": "781915980",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204013__duckduckpony__footsteps-water-light-002.wav",
+      "Path": "SFX\\Footstep_water\\204013__duckduckpony__footsteps-water-light-002_21344C1D.wem"
+     },
+     {
+      "Id": "793180899",
+      "Language": "SFX",
+      "ShortName": "SOUND\\PICK UP OBJECT.wav",
+      "Path": "SFX\\SOUND\\PICK UP OBJECT_9E69E797.wem"
+     },
+     {
+      "Id": "841071829",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624.wav",
+      "Path": "SFX\\Footstep_water\\204018__duckduckpony__footsteps-water-light-003-9624_6376AA83.wem"
+     },
+     {
+      "Id": "844563533",
+      "Language": "SFX",
+      "ShortName": "WTR_Waves, Water_3D04_09_01.wav",
+      "Path": "SFX\\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem"
+     },
+     {
+      "Id": "898880659",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204014__duckduckpony__footsteps-water-light-001.wav",
+      "Path": "SFX\\Footstep_water\\204014__duckduckpony__footsteps-water-light-001_306D430B.wem"
+     },
+     {
+      "Id": "909118349",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_DA78F783.wem"
+     },
+     {
+      "Id": "943931174",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_E3555519.wem"
+     },
+     {
+      "Id": "960984688",
+      "Language": "SFX",
+      "ShortName": "SOUND\\HINT5.wav",
+      "Path": "SFX\\SOUND\\HINT5_98D70A60.wem"
+     },
+     {
+      "Id": "967197798",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_5.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_5_9E69E797.wem"
+     },
+     {
+      "Id": "1004164203",
+      "Language": "SFX",
+      "ShortName": "download_CS190_20170601-160609\\ComedyAccent 6103_58_3.wav",
+      "Path": "SFX\\download_CS190_20170601-160609\\ComedyAccent 6103_58_3_9E69E797.wem"
+     },
+     {
+      "Id": "1007205368",
+      "Language": "SFX",
+      "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
+      "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_51D73D49.wem"
+     },
+     {
+      "Id": "1018505841",
+      "Language": "SFX",
+      "ShortName": "Birds\\266832__supercell10__bird-chirping.wav",
+      "Path": "SFX\\Birds\\266832__supercell10__bird-chirping_9E69E797.wem"
+     },
+     {
+      "Id": "1044104810",
+      "Language": "SFX",
+      "ShortName": "Footstep_water\\204033__duckduckpony__footsteps-water-light-006.wav",
+      "Path": "SFX\\Footstep_water\\204033__duckduckpony__footsteps-water-light-006_2C31595F.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

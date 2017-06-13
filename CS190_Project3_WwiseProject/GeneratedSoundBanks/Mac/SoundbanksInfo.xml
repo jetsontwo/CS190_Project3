@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Whitney\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}" Language="SFX">
+		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="9.473719" DurationMax="9.473719"/>
-				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.234389" DurationMax="5.234389"/>
-				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" GUID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="0.696599" DurationMax="4.307302"/>
-				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" GUID="{38526344-2231-45E0-A46F-5840875A23EA}" MaxAttenuation="70.000000" DurationType="Infinite"/>
-				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object" GUID="{8571B742-86BD-4DB1-BA4C-9DC76B3F2609}" DurationType="OneShot" DurationMin="10.490181" DurationMax="10.490181"/>
-				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup" GUID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" DurationType="OneShot" DurationMin="1.387710" DurationMax="1.387710"/>
-				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping" GUID="{C392E9AA-BF19-49D1-A0C3-636B36D1BDE4}" DurationType="OneShot" DurationMin="0.338542" DurationMax="0.402596"/>
-				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing" GUID="{C7FE74F6-B8EB-4CE7-9208-802E7F14E48A}" DurationType="OneShot" DurationMin="0.445449" DurationMax="0.629961"/>
-				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete" GUID="{7DC681F0-AC2F-4AA6-BE75-535CD022BE8C}" DurationType="OneShot" DurationMin="0.443583" DurationMax="0.719070"/>
-				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt" GUID="{5F7F6E17-43DE-4F6C-8004-36E643D76F8A}" DurationType="OneShot" DurationMin="0.452513" DurationMax="0.496844"/>
-				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel" GUID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" DurationType="OneShot" DurationMin="0.386644" DurationMax="0.545941"/>
-				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile" GUID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" DurationType="OneShot" DurationMin="0.393764" DurationMax="0.662993"/>
-				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water" GUID="{D6554DC8-80FE-4C7D-8A18-72333751B078}" DurationType="OneShot" DurationMin="0.755568" DurationMax="0.808242"/>
-				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close" GUID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" DurationType="OneShot" DurationMin="0.708345" DurationMax="0.804150"/>
-				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood" GUID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" DurationType="OneShot" DurationMin="0.410010" DurationMax="0.447283"/>
-				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" GUID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" MaxAttenuation="100.000000" DurationType="Infinite"/>
-				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind" GUID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" DurationType="Infinite"/>
+				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
+				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" MaxAttenuation="20.000000"/>
+				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" MaxAttenuation="70.000000"/>
+				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object"/>
+				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup"/>
+				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping"/>
+				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
+				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4729481" Language="SFX">
@@ -227,6 +228,10 @@
 				<File Id="844563533" Language="SFX">
 					<ShortName>WTR_Waves, Water_3D04_09_01.wav</ShortName>
 					<Path>SFX\WTR_Waves, Water_3D04_09_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="897125056" Language="SFX">
+					<ShortName>220212__gameaudio__ping-bing.wav</ShortName>
+					<Path>SFX\220212__gameaudio__ping-bing_9E69E797.wem</Path>
 				</File>
 				<File Id="898880659" Language="SFX">
 					<ShortName>Footstep_water\204014__duckduckpony__footsteps-water-light-001.wav</ShortName>

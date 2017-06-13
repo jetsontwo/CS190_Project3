@@ -1711,6 +1711,29 @@
 						<ActiveSource Name="390769__d00121058__fx-022-breath-landing" ID="{13E22E31-4853-4C82-99EE-F9D80CDBFF61}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Menu" ID="{320AF5F3-E5AB-4499-822C-9773DF535CD5}" ShortID="393385122">
+					<ChildrenList>
+						<Sound Name="220212__gameaudio__ping-bing" ID="{9A97FB64-AE4D-4D90-B070-1899B9C088FF}" ShortID="9751356" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220212__gameaudio__ping-bing" ID="{FC43169C-2DCC-425F-90D7-AD51359E4717}" ShortID="897125056">
+									<Language>SFX</Language>
+									<AudioFile>220212__gameaudio__ping-bing.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220212__gameaudio__ping-bing" ID="{FC43169C-2DCC-425F-90D7-AD51359E4717}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
