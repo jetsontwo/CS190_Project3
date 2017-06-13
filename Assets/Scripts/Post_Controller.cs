@@ -22,6 +22,7 @@ public class Post_Controller : MonoBehaviour {
         item_held = item;
         item_held.transform.parent = transform;
         item_held.transform.localPosition = new Vector3(0, 3f, 0);
+        item_held.GetComponent<BoxCollider>().enabled = false;
 
         //stop the hint sound:
         //Debug.Log("placed!");
@@ -29,7 +30,9 @@ public class Post_Controller : MonoBehaviour {
         last_event.collectable_count += 1;
 
         //start cutscene:
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.5f));
+        light_transition.instance.GetComponent<Animator>().Play("transition");
+
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1f));
         return true;
     }
 }
