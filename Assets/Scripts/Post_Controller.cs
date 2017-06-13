@@ -22,6 +22,7 @@ public class Post_Controller : MonoBehaviour {
         item_held = item;
         item_held.transform.parent = transform;
         item_held.transform.localPosition = new Vector3(0, 3f, 0);
+        item_held.GetComponent<BoxCollider>().enabled = false;
 
         //stop the hint sound:
         //Debug.Log("placed!");
