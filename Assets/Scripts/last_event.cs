@@ -21,7 +21,7 @@ public class last_event : MonoBehaviour {
         Movement.allow_move = false;
         this.GetComponent<event_trigger>().enabled = true;
 
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(24f);
         //end game scene here:
         SceneManager.LoadScene(2);
     }
