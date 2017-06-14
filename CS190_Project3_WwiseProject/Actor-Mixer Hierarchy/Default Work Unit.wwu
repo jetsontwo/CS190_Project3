@@ -1878,6 +1878,9 @@
 								<AudioFileSource Name="ending music" ID="{9E3CBC6A-2430-4139-AD31-AE7E4C55162E}" ShortID="1001819330">
 									<Language>SFX</Language>
 									<AudioFile>ending music.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="943832373"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
