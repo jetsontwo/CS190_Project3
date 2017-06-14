@@ -84,7 +84,7 @@
       "Name": "hint1_play",
       "ObjectPath": "\\Events\\Default Work Unit\\hint1_play",
       "GUID": "{38E215CF-3CD6-42B4-B62A-CFA4F2CF8551}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -102,7 +102,7 @@
       "Name": "hint2_play",
       "ObjectPath": "\\Events\\Default Work Unit\\hint2_play",
       "GUID": "{DE607B8C-E09A-4E2C-BF39-26D764E7B241}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -120,7 +120,7 @@
       "Name": "hint3_play",
       "ObjectPath": "\\Events\\Default Work Unit\\hint3_play",
       "GUID": "{2AFD89E6-5EFB-4A1B-9F78-3EA6C32D10EB}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -138,7 +138,7 @@
       "Name": "hint4_play",
       "ObjectPath": "\\Events\\Default Work Unit\\hint4_play",
       "GUID": "{09B5A134-77CF-4782-A644-AD4F6D6C7744}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -156,7 +156,7 @@
       "Name": "hint5_play",
       "ObjectPath": "\\Events\\Default Work Unit\\hint5_play",
       "GUID": "{0EB0FDDE-0AEA-42E1-B89E-2E10906DF28D}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -174,7 +174,7 @@
       "Name": "Hints",
       "ObjectPath": "\\Events\\Default Work Unit\\Hints",
       "GUID": "{38526344-2231-45E0-A46F-5840875A23EA}",
-      "MaxAttenuation": "80.000000",
+      "MaxAttenuation": "90.000000",
       "DurationType": "Infinite"
      },
      {
@@ -281,7 +281,7 @@
       "Name": "squirrel_play",
       "ObjectPath": "\\Events\\Default Work Unit\\squirrel_play",
       "GUID": "{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}",
-      "MaxAttenuation": "30.000000",
+      "MaxAttenuation": "40.000000",
       "DurationType": "Infinite"
      },
      {

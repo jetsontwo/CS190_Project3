@@ -110,7 +110,7 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp3</SegmentShape>
+											<SegmentShape>InvertedSCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>100</XPos>
@@ -190,7 +190,7 @@
 				</Attenuation>
 				<Attenuation Name="hint_atten" ID="{B7449EFC-01EE-41E5-9223-FF1C249AEEB1}" ShortID="402612760">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="80"/>
+						<Property Name="RadiusMax" Type="Real64" Value="90"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -207,7 +207,7 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>80</XPos>
+											<XPos>90</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -237,7 +237,7 @@
 				</Attenuation>
 				<Attenuation Name="squirrel_atten" ID="{762BF2C5-65EA-4D13-B1F2-F88F1C5B5A5D}" ShortID="668796126">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -251,9 +251,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
