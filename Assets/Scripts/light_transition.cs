@@ -5,18 +5,18 @@ using UnityEngine;
 public class light_transition : MonoBehaviour {
 
     public static light_transition instance;
-<<<<<<< HEAD
+
     // Use this for initialization
     void Awake()
     {
         instance = this;
     }
-    void Start () {
-=======
+
+
 	// Use this for initialization
 
 	void Start () {
->>>>>>> origin/master
+
         instance = this;
 	}
 	
@@ -24,8 +24,7 @@ public class light_transition : MonoBehaviour {
 	void Update () {
 		
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
+
+
 }

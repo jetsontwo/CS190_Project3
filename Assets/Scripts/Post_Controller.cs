@@ -31,13 +31,9 @@ public class Post_Controller : MonoBehaviour {
 
         light_transition.instance.GetComponent<Animator>().Play("light");
         //start cutscene:
-<<<<<<< HEAD
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1.5f));
-=======
-        light_transition.instance.GetComponent<Animator>().Play("transition");
 
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1f));
->>>>>>> origin/master
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1.5f));
+
         return true;
     }
 }
