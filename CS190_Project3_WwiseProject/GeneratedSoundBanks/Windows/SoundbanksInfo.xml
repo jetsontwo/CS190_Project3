@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Mono\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Mono\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Mono\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Mono\Documents\GitHub\CS190_Project3\CS190_Project3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}" Language="SFX">
+		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+<<<<<<< HEAD
 				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress" GUID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" DurationType="OneShot" DurationMin="1.000068" DurationMax="1.000068"/>
 				<Event Id="309311392" Name="ending_music" ObjectPath="\Events\Default Work Unit\ending_music" GUID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}" DurationType="OneShot" DurationMin="64.915894" DurationMax="64.915894"/>
 				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="7.473719" DurationMax="7.473719"/>
@@ -53,6 +54,39 @@
 				<Event Id="205943240" Name="Stop_All_this" ObjectPath="\Events\Default Work Unit\Stop_All_this" GUID="{86D972D7-42CE-4533-AB2F-56880B43846D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" GUID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" MaxAttenuation="100.000000" DurationType="Infinite"/>
 				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind" GUID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" DurationType="Infinite"/>
+=======
+				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress"/>
+				<Event Id="57181197" Name="endingMusic" ObjectPath="\Events\Default Work Unit\endingMusic"/>
+				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" MaxAttenuation="50.000000"/>
+				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" MaxAttenuation="30.000000"/>
+				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" MaxAttenuation="20.000000"/>
+				<Event Id="1792468376" Name="hint1_play" ObjectPath="\Events\Default Work Unit\hint1_play" MaxAttenuation="80.000000"/>
+				<Event Id="4123339242" Name="hint1_stop" ObjectPath="\Events\Default Work Unit\hint1_stop" MaxAttenuation="0.000000"/>
+				<Event Id="656448445" Name="hint2_play" ObjectPath="\Events\Default Work Unit\hint2_play" MaxAttenuation="80.000000"/>
+				<Event Id="2883764011" Name="hint2_stop" ObjectPath="\Events\Default Work Unit\hint2_stop" MaxAttenuation="0.000000"/>
+				<Event Id="209538446" Name="hint3_play" ObjectPath="\Events\Default Work Unit\hint3_play" MaxAttenuation="80.000000"/>
+				<Event Id="1211077744" Name="hint3_stop" ObjectPath="\Events\Default Work Unit\hint3_stop" MaxAttenuation="0.000000"/>
+				<Event Id="889616867" Name="hint4_play" ObjectPath="\Events\Default Work Unit\hint4_play" MaxAttenuation="80.000000"/>
+				<Event Id="3246161321" Name="hint4_stop" ObjectPath="\Events\Default Work Unit\hint4_stop" MaxAttenuation="0.000000"/>
+				<Event Id="4068216044" Name="hint5_play" ObjectPath="\Events\Default Work Unit\hint5_play" MaxAttenuation="80.000000"/>
+				<Event Id="1743033334" Name="hint5_stop" ObjectPath="\Events\Default Work Unit\hint5_stop" MaxAttenuation="0.000000"/>
+				<Event Id="3420417565" Name="Hints" ObjectPath="\Events\Default Work Unit\Hints" MaxAttenuation="80.000000"/>
+				<Event Id="3861027660" Name="pick_up_object" ObjectPath="\Events\Default Work Unit\pick_up_object"/>
+				<Event Id="3978245845" Name="pickup" ObjectPath="\Events\Default Work Unit\pickup"/>
+				<Event Id="1506921427" Name="Player_jumping" ObjectPath="\Events\Default Work Unit\Player_jumping"/>
+				<Event Id="1282282006" Name="Player_landing" ObjectPath="\Events\Default Work Unit\Player_landing"/>
+				<Event Id="1685368833" Name="PlayerWalk_concrete" ObjectPath="\Events\Default Work Unit\PlayerWalk_concrete"/>
+				<Event Id="3277136171" Name="PlayerWalk_dirt" ObjectPath="\Events\Default Work Unit\PlayerWalk_dirt"/>
+				<Event Id="1592501941" Name="PlayerWalk_gravel" ObjectPath="\Events\Default Work Unit\PlayerWalk_gravel"/>
+				<Event Id="2308746324" Name="PlayerWalk_tile" ObjectPath="\Events\Default Work Unit\PlayerWalk_tile"/>
+				<Event Id="1876925021" Name="PlayerWalk_water" ObjectPath="\Events\Default Work Unit\PlayerWalk_water"/>
+				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close"/>
+				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood"/>
+				<Event Id="3260844493" Name="squirrel_play" ObjectPath="\Events\Default Work Unit\squirrel_play" MaxAttenuation="30.000000"/>
+				<Event Id="3086540886" Name="stopAll" ObjectPath="\Events\Default Work Unit\stopAll" MaxAttenuation="0.000000"/>
+				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" MaxAttenuation="100.000000"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
+>>>>>>> origin/master
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4729481" Language="SFX">
@@ -294,6 +328,10 @@
 				<File Id="967197798" Language="SFX">
 					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_5.wav</ShortName>
 					<Path>SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_5_9E69E797.wem</Path>
+				</File>
+				<File Id="1001819330" Language="SFX">
+					<ShortName>ending music.wav</ShortName>
+					<Path>SFX\ending music_9E69E797.wem</Path>
 				</File>
 				<File Id="1004164203" Language="SFX">
 					<ShortName>download_CS190_20170601-160609\ComedyAccent 6103_58_3.wav</ShortName>

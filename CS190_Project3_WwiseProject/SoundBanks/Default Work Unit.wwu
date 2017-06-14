@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{46D06830-4449-4AF1-AF9F-65E10B4047C4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayerWalk_gravel" ID="{DDB8BD0E-E86C-4051-8568-188D3181F338}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stopAll" ID="{CF137AAA-18E0-40B7-9100-ED5AB81697D2}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_tile" ID="{C2101E05-6538-40BE-9DD1-82CFF986727C}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fish_Sounds" ID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
@@ -20,7 +21,11 @@
 						<ObjectRef Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="pickup" ID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Hints" ID="{38526344-2231-45E0-A46F-5840875A23EA}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+<<<<<<< HEAD
 						<ObjectRef Name="Stop_All_ending" ID="{2B92007E-3F8E-472F-85C1-23CBB7251A01}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+=======
+						<ObjectRef Name="endingMusic" ID="{0A891EAA-1158-464F-8497-A6CC359F4CDF}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+>>>>>>> origin/master
 						<ObjectRef Name="hint4_play" ID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ending_music" ID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Waves" ID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>

@@ -33,6 +33,8 @@ public class last_event : MonoBehaviour {
         AkSoundEngine.PostEvent("Stop_All_ending", gameObject);
 
         SceneManager.LoadScene(2);
+        AkSoundEngine.PostEvent("stopAll",gameObject);
+        AkSoundEngine.PostEvent("endingMusic", gameObject);
     }
 
     // Update is called once per frame

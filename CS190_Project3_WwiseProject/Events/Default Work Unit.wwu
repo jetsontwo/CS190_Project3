@@ -325,18 +325,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+<<<<<<< HEAD
 				<Event Name="Stop_All_this" ID="{86D972D7-42CE-4533-AB2F-56880B43846D}">
 					<ChildrenList>
 						<Action Name="Stop All Except" ID="{4A525537-B27E-4D9E-91FE-6441EE0A762C}" ShortID="841055241" Type="Stop" Scope="AllExcept" Global="true"/>
 						<Action Name="Post Event" ID="{56ED6F0E-2E8F-4F8D-909B-3EC0474E0155}" ShortID="315559207" Type="PlayEvent" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{8F41F788-FF78-4410-B662-2B91C2D1EF58}" Global="false">
+=======
+				<Event Name="stopAll" ID="{CF137AAA-18E0-40B7-9100-ED5AB81697D2}">
+					<ChildrenList>
+						<Action Name="Stop All Except" ID="{36C78094-5957-4D3A-8E4B-DDD33DB0A74D}" ShortID="312494154" Type="Stop" Scope="AllExcept" Global="true"/>
+						<Action Name="Post Event" ID="{38FEB384-9C46-48D3-9156-48FF4995365B}" ShortID="14947188" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{26D20061-0632-4B4C-BB5C-B8F7C81D5F9D}" Global="false">
+>>>>>>> origin/master
 									<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
+<<<<<<< HEAD
 				<Event Name="ending_music" ID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}">
 					<ChildrenList>
 						<Action Name="Play" ID="{CD11C5EA-BFDD-4DF6-9F9D-AF007617CA95}" ShortID="355428696" Type="Play" Scope="One" Global="false">
@@ -362,6 +372,14 @@
 							<ElementList>
 								<Element ID="{299C65CF-14C2-4609-B121-8AFB382FD18D}" Global="false">
 									<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
+=======
+				<Event Name="endingMusic" ID="{0A891EAA-1158-464F-8497-A6CC359F4CDF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DF63146B-8BC0-495A-ADD2-5AA4A78173A7}" ShortID="778550747" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DF6D0F56-46A3-4A3A-95FD-3B328B72DF9F}" Global="false">
+									<ObjectRef Name="ending music" ID="{7B24889F-497A-49EB-9D08-B582E56E60E5}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+>>>>>>> origin/master
 								</Element>
 							</ElementList>
 						</Action>

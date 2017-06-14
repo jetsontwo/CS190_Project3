@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="237349276">
+<IncrementalBankBuild Version="6" Flags="878078161">
 	<Platform GUID="{9E43A123-F0DE-44B4-AFD7-45981ED05265}">
 		<Banks>
 			<Language ID="0">
+<<<<<<< HEAD
 				<File Name="Init" Hash="3806675398" Timestamp="131418752312920323"/>
 				<File Name="Main" Hash="2362215606" Timestamp="131418764397687947"/>
+=======
+				<File Name="Init" Hash="3806675398" Timestamp="131418646629906846"/>
+				<File Name="Main" Hash="1604150592" Timestamp="131418657519152813"/>
+>>>>>>> origin/master
 				<File Name="main" Hash="4100811391" Timestamp="131394083098048351"/>
 			</Language>
 		</Banks>
@@ -15,7 +20,11 @@
 				<File Name="main" Hash="444532894" Timestamp="131394085601297026"/>
 			</Language>
 			<Language ID="-1">
+<<<<<<< HEAD
 				<File Name="" Hash="3829735751" Timestamp="131418764397878450"/>
+=======
+				<File Name="" Hash="2748013759" Timestamp="131418657519497985"/>
+>>>>>>> origin/master
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
