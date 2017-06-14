@@ -7,6 +7,6 @@ public class Button_Press : MonoBehaviour {
 	public void onClick()
     {
         AkSoundEngine.PostEvent("ButtonPress",gameObject);
-        //AkSoundEngine.PostEvent("hint1_stop", gameObject);
+        AkSoundEngine.PostEvent("Stop_All_this", gameObject);
     }
 }

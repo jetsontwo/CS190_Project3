@@ -41,6 +41,15 @@
       "DurationMax": "1.000068"
      },
      {
+      "Id": "309311392",
+      "Name": "ending_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\ending_music",
+      "GUID": "{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}",
+      "DurationType": "OneShot",
+      "DurationMin": "64.915894",
+      "DurationMax": "64.915894"
+     },
+     {
       "Id": "326967116",
       "Name": "env_bird_chirping1",
       "ObjectPath": "\\Events\\Default Work Unit\\env_bird_chirping1",
@@ -274,6 +283,26 @@
       "GUID": "{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}",
       "MaxAttenuation": "30.000000",
       "DurationType": "Infinite"
+     },
+     {
+      "Id": "4164995797",
+      "Name": "Stop_All_ending",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_All_ending",
+      "GUID": "{2B92007E-3F8E-472F-85C1-23CBB7251A01}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "205943240",
+      "Name": "Stop_All_this",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_All_this",
+      "GUID": "{86D972D7-42CE-4533-AB2F-56880B43846D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2453122309",
@@ -627,6 +656,12 @@
       "Language": "SFX",
       "ShortName": "Footstep_Wood\\FootstepsWood 6017_09_2.wav",
       "Path": "SFX\\Footstep_Wood\\FootstepsWood 6017_09_2_DA78F783.wem"
+     },
+     {
+      "Id": "943832373",
+      "Language": "SFX",
+      "ShortName": "ending music.wav",
+      "Path": "SFX\\ending music_9E69E797.wem"
      },
      {
       "Id": "943931174",

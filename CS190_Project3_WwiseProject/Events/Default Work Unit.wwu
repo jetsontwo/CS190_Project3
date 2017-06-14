@@ -325,6 +325,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All_this" ID="{86D972D7-42CE-4533-AB2F-56880B43846D}">
+					<ChildrenList>
+						<Action Name="Stop All Except" ID="{4A525537-B27E-4D9E-91FE-6441EE0A762C}" ShortID="841055241" Type="Stop" Scope="AllExcept" Global="true"/>
+						<Action Name="Post Event" ID="{56ED6F0E-2E8F-4F8D-909B-3EC0474E0155}" ShortID="315559207" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8F41F788-FF78-4410-B662-2B91C2D1EF58}" Global="false">
+									<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ending_music" ID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CD11C5EA-BFDD-4DF6-9F9D-AF007617CA95}" ShortID="355428696" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{571F723E-158C-4537-806C-836DB4BFC13D}" Global="false">
+									<ObjectRef Name="ending music" ID="{BB9B5808-24CB-4DDC-8D75-0C62C382075B}" WorkUnitID="{62812BDB-3DC0-4CF3-97DF-F6C9CA47B4D0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All_ending" ID="{2B92007E-3F8E-472F-85C1-23CBB7251A01}">
+					<ChildrenList>
+						<Action Name="Stop All Except" ID="{A78BA721-EB86-442E-BECA-BAAF6D3C13C9}" ShortID="874415354" Type="Stop" Scope="AllExcept" Global="false"/>
+						<Action Name="Post Event" ID="{63886BE4-7A4E-4078-A072-03277B79A53A}" ShortID="997437559" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D6D0049B-243A-47DE-8D46-B43C0A2C904B}" Global="false">
+									<ObjectRef Name="ending_music" ID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{827B6B8A-4978-4AEF-A321-F50AD4E4C616}" ShortID="1034156784" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{299C65CF-14C2-4609-B121-8AFB382FD18D}" Global="false">
+									<ObjectRef Name="buttonPress" ID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

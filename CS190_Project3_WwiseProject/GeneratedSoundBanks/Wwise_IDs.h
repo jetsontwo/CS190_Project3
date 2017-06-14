@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BUTTONPRESS = 317641954U;
+        static const AkUniqueID ENDING_MUSIC = 309311392U;
         static const AkUniqueID ENV_BIRD_CHIRPING1 = 326967116U;
         static const AkUniqueID ENV_BIRD_CHIRPING2 = 326967119U;
         static const AkUniqueID FISH_SOUNDS = 2839789934U;
@@ -40,6 +41,8 @@ namespace AK
         static const AkUniqueID PLAYERWALK_WATER_CLOSE = 3668604724U;
         static const AkUniqueID PLAYERWALK_WOOD = 3420637487U;
         static const AkUniqueID SQUIRREL_PLAY = 3260844493U;
+        static const AkUniqueID STOP_ALL_ENDING = 4164995797U;
+        static const AkUniqueID STOP_ALL_THIS = 205943240U;
         static const AkUniqueID WAVES = 2453122309U;
         static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS

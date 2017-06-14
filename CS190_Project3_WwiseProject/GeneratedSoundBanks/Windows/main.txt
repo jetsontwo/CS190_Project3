@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
+	205943240	Stop_All_this			\Default Work Unit\Stop_All_this	
 	209538446	hint3_play			\Default Work Unit\hint3_play	
+	309311392	ending_music			\Default Work Unit\ending_music	
 	317641954	buttonPress			\Default Work Unit\buttonPress	
 	326967116	env_bird_chirping1			\Default Work Unit\env_bird_chirping1	
 	326967119	env_bird_chirping2			\Default Work Unit\env_bird_chirping2	
@@ -28,6 +30,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3978245845	pickup			\Default Work Unit\pickup	
 	4068216044	hint5_play			\Default Work Unit\hint5_play	
 	4123339242	hint1_stop			\Default Work Unit\hint1_stop	
+	4164995797	Stop_All_ending			\Default Work Unit\Stop_All_ending	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4729481	HINT1	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\SOUND\HINT1_7A663DB3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hints\HINT1		510340
@@ -86,6 +89,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	897125056	220212__gameaudio__ping-bing	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\220212__gameaudio__ping-bing_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\220212__gameaudio__ping-bing		176476
 	898880659	204014__duckduckpony__footsteps-water-light-001	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_water\204014__duckduckpony__footsteps-water-light-001_306D430B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_water\204014__duckduckpony__footsteps-water-light-001		155220
 	909118349	FootstepsWood 6017_09_04	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_Wood\FootstepsWood 6017_09_2_DA78F783.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_Wood\FootstepsWood 6017_09_04		78964
+	943832373	ending music	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\ending music_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND\ending music		11451228
 	943931174	FootstepsWood 6017_09_01	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\Footstep_Wood\FootstepsWood 6017_09_2_E3555519.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_Wood\FootstepsWood 6017_09_01		73704
 	960984688	HINT5	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\SOUND\HINT5_98D70A60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hints\HINT5		441760
 	967197798	ComedyAccent 6103_58_5	C:\Users\Kyaa\Documents\GitHub\Local_Projects\CS190\CS190_Project3\CS190_Project3_WwiseProject\.cache\Windows\SFX\download_CS190_20170601-160609\ComedyAccent 6103_58_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\fish_sounds\Fish\ComedyAccent 6103_58_5		309312

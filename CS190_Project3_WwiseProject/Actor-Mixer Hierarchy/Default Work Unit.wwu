@@ -1319,6 +1319,25 @@
 								<ActiveSource Name="hint music" ID="{DA67AAEA-A53D-4B2F-8BD4-708A390DA034}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="ending music" ID="{BB9B5808-24CB-4DDC-8D75-0C62C382075B}" ShortID="253517745" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4995CAD-E752-49DD-9455-9884686FBE99}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FDFBA2A5-12C0-485C-9A70-5BE37B2723F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ending music" ID="{4BB946CE-6528-46E9-868A-8539301064DE}" ShortID="943832373">
+									<Language>SFX</Language>
+									<AudioFile>ending music.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ending music" ID="{4BB946CE-6528-46E9-868A-8539301064DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="wind" ID="{A4B6D2C9-04C7-486F-A982-6576C8819A56}" ShortID="523701080" Type="SoundFX">

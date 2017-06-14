@@ -28,8 +28,9 @@ public class Post_Controller : MonoBehaviour {
         AkSoundEngine.PostEvent(item.GetComponent<Ambient_Sounds>().stopthis_sound, item.gameObject);
         last_event.collectable_count += 1;
 
+        light_transition.instance.GetComponent<Animator>().Play("light");
         //start cutscene:
-        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(0.5f));
+        StartCoroutine(item_held.GetComponent<Activate_Sounds>().activate(1.5f));
         return true;
     }
 }

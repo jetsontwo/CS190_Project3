@@ -22,6 +22,7 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="317641954" Name="buttonPress" ObjectPath="\Events\Default Work Unit\buttonPress" GUID="{F81DCDF1-B673-40B7-91DB-756A7EF80D2B}" DurationType="OneShot" DurationMin="1.000068" DurationMax="1.000068"/>
+				<Event Id="309311392" Name="ending_music" ObjectPath="\Events\Default Work Unit\ending_music" GUID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}" DurationType="OneShot" DurationMin="64.915894" DurationMax="64.915894"/>
 				<Event Id="326967116" Name="env_bird_chirping1" ObjectPath="\Events\Default Work Unit\env_bird_chirping1" GUID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="7.473719" DurationMax="7.473719"/>
 				<Event Id="326967119" Name="env_bird_chirping2" ObjectPath="\Events\Default Work Unit\env_bird_chirping2" GUID="{622018EB-960E-4344-AB39-14F24EE73AD0}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.234389" DurationMax="5.234389"/>
 				<Event Id="2839789934" Name="Fish_Sounds" ObjectPath="\Events\Default Work Unit\Fish_Sounds" GUID="{352CFE4B-8B6F-40C7-B7AE-EB2D33725152}" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="0.696599" DurationMax="4.307302"/>
@@ -48,6 +49,8 @@
 				<Event Id="3668604724" Name="PlayerWalk_water_close" ObjectPath="\Events\Default Work Unit\PlayerWalk_water_close" GUID="{548C24BC-769C-430C-B5D2-0A5DAA259DC2}" DurationType="OneShot" DurationMin="0.708345" DurationMax="0.804150"/>
 				<Event Id="3420637487" Name="PlayerWalk_wood" ObjectPath="\Events\Default Work Unit\PlayerWalk_wood" GUID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" DurationType="OneShot" DurationMin="0.410010" DurationMax="0.447283"/>
 				<Event Id="3260844493" Name="squirrel_play" ObjectPath="\Events\Default Work Unit\squirrel_play" GUID="{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="4164995797" Name="Stop_All_ending" ObjectPath="\Events\Default Work Unit\Stop_All_ending" GUID="{2B92007E-3F8E-472F-85C1-23CBB7251A01}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="205943240" Name="Stop_All_this" ObjectPath="\Events\Default Work Unit\Stop_All_this" GUID="{86D972D7-42CE-4533-AB2F-56880B43846D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2453122309" Name="Waves" ObjectPath="\Events\Default Work Unit\Waves" GUID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" MaxAttenuation="100.000000" DurationType="Infinite"/>
 				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind" GUID="{8D9F5457-BA4B-4CC5-8420-FA53D72B458A}" DurationType="Infinite"/>
 			</IncludedEvents>
@@ -275,6 +278,10 @@
 				<File Id="909118349" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>
 					<Path>SFX\Footstep_Wood\FootstepsWood 6017_09_2_DA78F783.wem</Path>
+				</File>
+				<File Id="943832373" Language="SFX">
+					<ShortName>ending music.wav</ShortName>
+					<Path>SFX\ending music_9E69E797.wem</Path>
 				</File>
 				<File Id="943931174" Language="SFX">
 					<ShortName>Footstep_Wood\FootstepsWood 6017_09_2.wav</ShortName>

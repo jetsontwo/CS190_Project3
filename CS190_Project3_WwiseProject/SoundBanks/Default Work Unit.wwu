@@ -16,10 +16,13 @@
 						<ObjectRef Name="env_bird_chirping2" ID="{622018EB-960E-4344-AB39-14F24EE73AD0}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="hint1_stop" ID="{353A2D53-1693-4376-9100-694024371FFB}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="squirrel_play" ID="{0EDF4CEC-A7B8-4414-A8B9-F0A3B1800E92}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_All_this" ID="{86D972D7-42CE-4533-AB2F-56880B43846D}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayerWalk_wood" ID="{C3B96554-EDEF-458E-BDF6-7E3CC802E269}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="pickup" ID="{1825DF01-E8C8-45A7-95E6-AFEE33A699CD}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Hints" ID="{38526344-2231-45E0-A46F-5840875A23EA}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_All_ending" ID="{2B92007E-3F8E-472F-85C1-23CBB7251A01}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="hint4_play" ID="{09B5A134-77CF-4782-A644-AD4F6D6C7744}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ending_music" ID="{1DC8033B-F627-47EE-B6E3-E5DA1D7DDDB8}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Waves" ID="{1CD5A68F-6BB2-4810-8E5A-4973C6298057}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="hint4_stop" ID="{6E21F53B-0588-4858-9787-346BDDD44946}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="env_bird_chirping1" ID="{EB1200F5-A26C-4897-824E-C4EE349B2551}" WorkUnitID="{E40BC0B9-ABA6-47A6-ACD1-C60EDB035051}" Filter="7" Origin="Manual"/>
